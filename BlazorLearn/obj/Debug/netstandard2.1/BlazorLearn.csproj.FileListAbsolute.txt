@@ -349,6 +349,10 @@ C:\Users\kamil\Documents\C#_Projects\BlazorLearn\BlazorLearn\obj\Debug\netstanda
 C:\Users\kamil\Documents\C#_Projects\BlazorLearn\BlazorLearn\obj\Debug\netstandard2.1\staticwebassets\BlazorLearn.StaticWebAssets.xml
 C:\Users\kamil\Documents\C#_Projects\BlazorLearn\BlazorLearn\obj\Debug\netstandard2.1\BlazorLearn.dll
 C:\Users\kamil\Documents\C#_Projects\BlazorLearn\BlazorLearn\obj\Debug\netstandard2.1\BlazorLearn.pdb
-C:\Users\kamil\Documents\C#_Projects\BlazorLearn\BlazorLearn\obj\Debug\netstandard2.1\integrity\DZgNX4ulhuG_yqdLowohihT1rApeXgilhma6rMB1g_g=.hash
-C:\Users\kamil\Documents\C#_Projects\BlazorLearn\BlazorLearn\obj\Debug\netstandard2.1\integrity\Ia2uVtVH-LDXoG62JHYPk87ASbMtmaLeIWE38jvSTjQ=.hash
-C:\Users\kamil\Documents\C#_Projects\BlazorLearn\BlazorLearn\obj\Debug\netstandard2.1\integrity\XgZHwnWadvPhqj0KmKKtnqI5NiuztSc5EP6tPfJuriU=.hash
+C:\Users\kamil\Documents\C#_Projects\BlazorLearn\BlazorLearn\obj\Debug\netstandard2.1\RazorDeclaration\Pages\Book.razor.g.cs
+C:\Users\kamil\Documents\C#_Projects\BlazorLearn\BlazorLearn\obj\Debug\netstandard2.1\Razor\Pages\Book.razor.g.cs
+C:\Users\kamil\Documents\C#_Projects\BlazorLearn\BlazorLearn\obj\Debug\netstandard2.1\RazorDeclaration\Pages\WorldPopulation.razor.g.cs
+C:\Users\kamil\Documents\C#_Projects\BlazorLearn\BlazorLearn\obj\Debug\netstandard2.1\Razor\Pages\WorldPopulation.razor.g.cs
+C:\Users\kamil\Documents\C#_Projects\BlazorLearn\BlazorLearn\obj\Debug\netstandard2.1\integrity\oN3RgdXqStjCROpQ8aG99dLCAyBaSfE1A2ZkOotmBek=.hash
+C:\Users\kamil\Documents\C#_Projects\BlazorLearn\BlazorLearn\obj\Debug\netstandard2.1\integrity\_TSVmDkaHqQeX5oBblHb4hkHrdLcI7kBJgfYPsgCPg4=.hash
+C:\Users\kamil\Documents\C#_Projects\BlazorLearn\BlazorLearn\obj\Debug\netstandard2.1\integrity\GiC2ZMPSeQwWYJIEJdaN4e9qjcs7QNuqoZfdrpDQ-xY=.hash

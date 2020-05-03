@@ -1,0 +1,55 @@
+﻿@page "/bookList"
+
+<h1>Okuduğum Kitaplar (Toplam @books.Count() kitabım var) </h1>
+<!-- Toplam kitap sayısını da başlığa ekledik -->
+
+<blockquote class="blockquote">
+    Burada okumaktan keyif aldığım kitaplar yer alıyor.
+</blockquote>
+
+<ul>
+    <!-- Tüm kitapları dolaşıp örnek olarak başlıklarını listeliyor ve
+         hemen alt kısmına özet bilgilerini yerleştiriyoruz -->
+    @foreach (var book in books)
+    {
+        <li aria-describedby="bookTitle">@book.Title</li>
+        <small id="bookTitle" class="form-text text-muted">@book.Summary</small>
+    }
+</ul>
+<!-- Yeni bir kitap bilgisinin girişi için Bootstrap ile zenginleştirilmiş basit bir formumuz var -->
+<div class="form-group">
+    <input class="form-control" id="txtTitle" placeholder="Kitabın adı"
+           bind="@newBook.Title" /><br /> <!--bind attribute'una atanan değer ile Title özelliğine bağladık -->
+    <input class="form-control" id="txtAuthors" placeholder="Yazarlar"
+           bind="@newBook.Authors" /><br />
+    <input class="form-control" id="txtPageCount" placeholder="Sayfa sayısı"
+           bind="@newBook.PageCount" /><br />
+    <input class="form-control" id="txtSummary" aria-describedby="summaryHelp" placeholder="Özet"
+           bind="@newBook.Summary" />
+    <small id="summaryHelp" class="form-text text-muted">
+        @message
+    </small> <!-- yardımcı bilgi veren metin için koyduk -->
+</div>
+<button @onclick="AddNewBook" class="btn btn-primary">Listeye ekleyelim</button> <!-- onclick attribute'unda AddNewBook metoduna bağladık -->
+<!-- Kodlarımız -->
+@code {
+
+    IList<BookModel> books = new List<BookModel>();
+    BookModel newBook = new BookModel();
+
+    String message = "Lütfen bir cümleyle kitabın neyle ilgili olduğunu anlat";
+
+    void AddNewBook()
+    {
+        books.Add(newBook); // Kitabı listaye ekledik
+        newBook = new BookModel(); // Eğer newBook nesnesini sıfırlamassak büyük ihtimalle koleksiyona hep aynı nesne örneği eklenecektir.
+    }
+
+    public class BookModel
+    {
+        public string Title { get; set; }
+        public string Summary { get; set; }
+        public int PageCount { get; set; }
+        public string Authors { get; set; }
+    }
+}
