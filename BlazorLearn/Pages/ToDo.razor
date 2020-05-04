@@ -1,0 +1,42 @@
+﻿@page "/todo"
+
+<h1>Kalan İş Sayısı (@todos.Where(todo => !todo.IsDone).Count())</h1>
+<ul>
+    @foreach (var todo in todos)
+    {
+        <li aria-describedby="bookTitle">
+            <input type="checkbox" name="IsDone" @bind-value="todo.IsDone" />
+            <small id="bookTitle" class="form-text text-muted">@todo.Title</small>
+        </li>
+    }
+    
+    <input class="form-control m-2" placeholder="Yapılacak İş" @bind-value="newTodo" />
+    <button class="btn btn-success m-2" @onclick="AddTodo">görevAta</button>
+
+</ul>
+
+@code {
+    IList<TodoItem> todos = new List<TodoItem>();
+
+    /* Yeni eklenecek işe karşılık gelen değişken “newTodo” ve bir buttona tıklanınca
+     * eğer yeni iş adı null değil ise, “todos []” dizisine ekleyen “AddTodo()” methodu
+     */
+
+    string newTodo;
+
+    void AddTodo()
+    {
+
+        if (!String.IsNullOrWhiteSpace(newTodo))
+        {
+            todos.Add(new TodoItem { Title = newTodo });
+            newTodo = "";
+        }
+    }
+
+    public class TodoItem
+    {
+        public string Title { get; set; }
+        public bool IsDone { get; set; }
+    }
+}
