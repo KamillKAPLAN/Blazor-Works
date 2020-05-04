@@ -19,14 +19,14 @@
 <!-- Yeni bir kitap bilgisinin girişi için Bootstrap ile zenginleştirilmiş basit bir formumuz var -->
 <div class="form-group">
     <input class="form-control" id="txtTitle" placeholder="Kitabın adı"
-           bind="@newBook.Title" /><br /> <!--bind attribute'una atanan değer ile Title özelliğine bağladık -->
+           @bind-value="newBook.Title" /><br /> <!--bind attribute'una atanan değer ile Title özelliğine bağladık -->
     <input class="form-control" id="txtAuthors" placeholder="Yazarlar"
-           bind="@newBook.Authors" /><br />
+           @bind-value="newBook.Authors" /><br />
     <input class="form-control" id="txtPageCount" placeholder="Sayfa sayısı"
-           bind="@newBook.PageCount" /><br />
+           @bind-value="newBook.PageCount" /><br />
     <input class="form-control" id="txtSummary" aria-describedby="summaryHelp" placeholder="Özet"
-           bind="@newBook.Summary" />
-    <small id="summaryHelp" class="form-text text-muted">
+           @bind-value="newBook.Summary" />
+    <small id="summaryHelp" class="form-text text-muted @alertCss">
         @message
     </small> <!-- yardımcı bilgi veren metin için koyduk -->
 </div>
@@ -38,11 +38,22 @@
     BookModel newBook = new BookModel();
 
     String message = "Lütfen bir cümleyle kitabın neyle ilgili olduğunu anlat";
+    Boolean err = false;
+    String alertCss = "alert alert-warning";
 
     void AddNewBook()
     {
-        books.Add(newBook); // Kitabı listaye ekledik
-        newBook = new BookModel(); // Eğer newBook nesnesini sıfırlamassak büyük ihtimalle koleksiyona hep aynı nesne örneği eklenecektir.
+        if(newBook != null)
+        {
+            err = true;
+            message = "Boş alan bırakmayınız...";
+            alertCss = "alert alert-danger";
+        } else
+        {
+            err = false;
+            books.Add(newBook); // Kitabı listaye ekledik
+            newBook = new BookModel(); // Eğer newBook nesnesini sıfırlamassak büyük ihtimalle koleksiyona hep aynı nesne örneği eklenecektir.
+        }
     }
 
     public class BookModel

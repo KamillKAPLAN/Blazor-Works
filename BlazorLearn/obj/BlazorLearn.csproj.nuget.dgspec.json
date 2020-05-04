@@ -52,6 +52,10 @@
               "target": "Package",
               "version": "[3.2.0-preview4.20210.8, )"
             },
+            "RazorComponentsPreview": {
+              "target": "Package",
+              "version": "[0.6.0, )"
+            },
             "System.Net.Http.Json": {
               "target": "Package",
               "version": "[3.2.0-preview5.20210.3, )"

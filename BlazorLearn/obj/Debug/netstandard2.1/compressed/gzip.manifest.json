@@ -1,7 +1,137 @@
 {
   "FilesToCompress": [
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\oN3RgdXqStjCROpQ8aG99dLCAyBaSfE1A2ZkOotmBek=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\pZu07O9Gw_i7dTnhL9DFc-9Lrwpg24SIDPgLwGn8D-A=.hash",
+      "Source": "C:\\Users\\kamil\\.nuget\\packages\\microsoft.codeanalysis.common\\3.3.0\\lib\\netstandard2.0\\cs\\Microsoft.CodeAnalysis.resources.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/cs\/Microsoft.CodeAnalysis.resources.dll.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\1csFd160f9oIIVCyZgOteNE-nQ5siq-ks8PHXu5Kryw=.hash",
+      "Source": "C:\\Users\\kamil\\.nuget\\packages\\microsoft.codeanalysis.common\\3.3.0\\lib\\netstandard2.0\\de\\Microsoft.CodeAnalysis.resources.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/de\/Microsoft.CodeAnalysis.resources.dll.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\Dwid1QIvvi7LTIBZ00_2Pm2q26P3jkur78YIlTplJjs=.hash",
+      "Source": "C:\\Users\\kamil\\.nuget\\packages\\microsoft.codeanalysis.common\\3.3.0\\lib\\netstandard2.0\\es\\Microsoft.CodeAnalysis.resources.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/es\/Microsoft.CodeAnalysis.resources.dll.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\ivvWgZcJpMiXmAM8KgJNDAZsToPARX66JAYmSM_nqFo=.hash",
+      "Source": "C:\\Users\\kamil\\.nuget\\packages\\microsoft.codeanalysis.common\\3.3.0\\lib\\netstandard2.0\\fr\\Microsoft.CodeAnalysis.resources.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/fr\/Microsoft.CodeAnalysis.resources.dll.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\k8zITtgTDFtNtPIGiYfl7g2qk5JVI8bK9QjrRMwZkXg=.hash",
+      "Source": "C:\\Users\\kamil\\.nuget\\packages\\microsoft.codeanalysis.common\\3.3.0\\lib\\netstandard2.0\\it\\Microsoft.CodeAnalysis.resources.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/it\/Microsoft.CodeAnalysis.resources.dll.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\oJj0G582MKVIOa1i1SGQvHh7AI_g5rahIE4Aofuqrww=.hash",
+      "Source": "C:\\Users\\kamil\\.nuget\\packages\\microsoft.codeanalysis.common\\3.3.0\\lib\\netstandard2.0\\ja\\Microsoft.CodeAnalysis.resources.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/ja\/Microsoft.CodeAnalysis.resources.dll.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\I69B6CEY95C2aZ3JVXcbhPkiyM2FrZaG9sbVf_SqwRo=.hash",
+      "Source": "C:\\Users\\kamil\\.nuget\\packages\\microsoft.codeanalysis.common\\3.3.0\\lib\\netstandard2.0\\ko\\Microsoft.CodeAnalysis.resources.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/ko\/Microsoft.CodeAnalysis.resources.dll.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\z22JJjNqRXUYFuqj7OAYxoFurxeiscWOBpCAg_YB5HE=.hash",
+      "Source": "C:\\Users\\kamil\\.nuget\\packages\\microsoft.codeanalysis.common\\3.3.0\\lib\\netstandard2.0\\pl\\Microsoft.CodeAnalysis.resources.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/pl\/Microsoft.CodeAnalysis.resources.dll.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\IMsIdlVibkdYV75QJIklscpBiKVyXGiIGjfbDJXHkdk=.hash",
+      "Source": "C:\\Users\\kamil\\.nuget\\packages\\microsoft.codeanalysis.common\\3.3.0\\lib\\netstandard2.0\\pt-BR\\Microsoft.CodeAnalysis.resources.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/pt-BR\/Microsoft.CodeAnalysis.resources.dll.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\VLjShi5Bdiw9bCFHYYvYR3bhRaK9rERw6ly5mY5eJ3U=.hash",
+      "Source": "C:\\Users\\kamil\\.nuget\\packages\\microsoft.codeanalysis.common\\3.3.0\\lib\\netstandard2.0\\ru\\Microsoft.CodeAnalysis.resources.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/ru\/Microsoft.CodeAnalysis.resources.dll.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\p7CJ6_-IMWP-bL7SSvzShRBMUPgme77yae2MCYOhSZM=.hash",
+      "Source": "C:\\Users\\kamil\\.nuget\\packages\\microsoft.codeanalysis.common\\3.3.0\\lib\\netstandard2.0\\tr\\Microsoft.CodeAnalysis.resources.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/tr\/Microsoft.CodeAnalysis.resources.dll.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\SELPT5xfoRYFbysXYLJw4C0d0hFfqWjKaquXfVPX3w0=.hash",
+      "Source": "C:\\Users\\kamil\\.nuget\\packages\\microsoft.codeanalysis.common\\3.3.0\\lib\\netstandard2.0\\zh-Hans\\Microsoft.CodeAnalysis.resources.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/zh-Hans\/Microsoft.CodeAnalysis.resources.dll.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\9-gpkmtmBJ9ysTrxq5NXidQu4uOAB7BIp89OR_6zzrc=.hash",
+      "Source": "C:\\Users\\kamil\\.nuget\\packages\\microsoft.codeanalysis.common\\3.3.0\\lib\\netstandard2.0\\zh-Hant\\Microsoft.CodeAnalysis.resources.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/zh-Hant\/Microsoft.CodeAnalysis.resources.dll.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\73aMX172OmMSzQeCvZD_DEMSckP2Zjjp7dFGwgb7xps=.hash",
+      "Source": "C:\\Users\\kamil\\.nuget\\packages\\microsoft.codeanalysis.csharp\\3.3.0\\lib\\netstandard2.0\\cs\\Microsoft.CodeAnalysis.CSharp.resources.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/cs\/Microsoft.CodeAnalysis.CSharp.resources.dll.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\DJlqjz0XGUuYo3L4_94QionjTAWi4HB6PwxVdYVkq7w=.hash",
+      "Source": "C:\\Users\\kamil\\.nuget\\packages\\microsoft.codeanalysis.csharp\\3.3.0\\lib\\netstandard2.0\\de\\Microsoft.CodeAnalysis.CSharp.resources.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/de\/Microsoft.CodeAnalysis.CSharp.resources.dll.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\kWtAohMAWUPDeJPe-WASLN2ZVhPkHxdcGlflphg90do=.hash",
+      "Source": "C:\\Users\\kamil\\.nuget\\packages\\microsoft.codeanalysis.csharp\\3.3.0\\lib\\netstandard2.0\\es\\Microsoft.CodeAnalysis.CSharp.resources.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/es\/Microsoft.CodeAnalysis.CSharp.resources.dll.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\fhILT6v568lnqOp5RHTWU3j3oMjRB_RP9Yd3-VklwF4=.hash",
+      "Source": "C:\\Users\\kamil\\.nuget\\packages\\microsoft.codeanalysis.csharp\\3.3.0\\lib\\netstandard2.0\\fr\\Microsoft.CodeAnalysis.CSharp.resources.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/fr\/Microsoft.CodeAnalysis.CSharp.resources.dll.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\zlBZEZX9XIuiroQQmOEGodPGvAqou-aZU9loZZM9Uz8=.hash",
+      "Source": "C:\\Users\\kamil\\.nuget\\packages\\microsoft.codeanalysis.csharp\\3.3.0\\lib\\netstandard2.0\\it\\Microsoft.CodeAnalysis.CSharp.resources.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/it\/Microsoft.CodeAnalysis.CSharp.resources.dll.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\MVsalITevW0OViZzNMWOWHEHYoEd9R_44bwZrOBxToA=.hash",
+      "Source": "C:\\Users\\kamil\\.nuget\\packages\\microsoft.codeanalysis.csharp\\3.3.0\\lib\\netstandard2.0\\ja\\Microsoft.CodeAnalysis.CSharp.resources.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/ja\/Microsoft.CodeAnalysis.CSharp.resources.dll.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\AFva9Msr6oyK32UMRGLjHS-D5sVkNjgMjA_3nmgQxiU=.hash",
+      "Source": "C:\\Users\\kamil\\.nuget\\packages\\microsoft.codeanalysis.csharp\\3.3.0\\lib\\netstandard2.0\\ko\\Microsoft.CodeAnalysis.CSharp.resources.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/ko\/Microsoft.CodeAnalysis.CSharp.resources.dll.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\BAnK2HZ6wUZkwmQi0jhBFOz4lmF11rVQFcpK4YZAOyo=.hash",
+      "Source": "C:\\Users\\kamil\\.nuget\\packages\\microsoft.codeanalysis.csharp\\3.3.0\\lib\\netstandard2.0\\pl\\Microsoft.CodeAnalysis.CSharp.resources.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/pl\/Microsoft.CodeAnalysis.CSharp.resources.dll.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\DgIVvGv-RFOrseFYAzxrcBlAes1AbE2cgpHRdaFTdK4=.hash",
+      "Source": "C:\\Users\\kamil\\.nuget\\packages\\microsoft.codeanalysis.csharp\\3.3.0\\lib\\netstandard2.0\\pt-BR\\Microsoft.CodeAnalysis.CSharp.resources.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/pt-BR\/Microsoft.CodeAnalysis.CSharp.resources.dll.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\cdM4RyW8rcWakY4oo83988ufoh9Bf3ig_OBV_1vmKB8=.hash",
+      "Source": "C:\\Users\\kamil\\.nuget\\packages\\microsoft.codeanalysis.csharp\\3.3.0\\lib\\netstandard2.0\\ru\\Microsoft.CodeAnalysis.CSharp.resources.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/ru\/Microsoft.CodeAnalysis.CSharp.resources.dll.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\_76yzUtJBMd0wQW6mPsowwOyd8n_RhP5MH0gX9JD1bY=.hash",
+      "Source": "C:\\Users\\kamil\\.nuget\\packages\\microsoft.codeanalysis.csharp\\3.3.0\\lib\\netstandard2.0\\tr\\Microsoft.CodeAnalysis.CSharp.resources.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/tr\/Microsoft.CodeAnalysis.CSharp.resources.dll.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\42i9sX9RW-PFtlMP46N6Ct2crBNz9KrI7DXTm1G-W5Y=.hash",
+      "Source": "C:\\Users\\kamil\\.nuget\\packages\\microsoft.codeanalysis.csharp\\3.3.0\\lib\\netstandard2.0\\zh-Hans\\Microsoft.CodeAnalysis.CSharp.resources.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/zh-Hans\/Microsoft.CodeAnalysis.CSharp.resources.dll.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\2CtnwRPC9c48hWYZDJuNnhvrULD10GwDzqcovS_jdm8=.hash",
+      "Source": "C:\\Users\\kamil\\.nuget\\packages\\microsoft.codeanalysis.csharp\\3.3.0\\lib\\netstandard2.0\\zh-Hant\\Microsoft.CodeAnalysis.CSharp.resources.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/zh-Hant\/Microsoft.CodeAnalysis.CSharp.resources.dll.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\d3d5qXr1qPhiQHz-M_ed2WaubEfMthy71XQM64tmPk4=.hash",
       "Source": "C:\\Users\\kamil\\Documents\\C#_Projects\\BlazorLearn\\BlazorLearn\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\BlazorLearn.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/BlazorLearn.dll.gz"
     },
@@ -261,7 +391,7 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.JSInterop.WebAssembly.dll.gz"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\_TSVmDkaHqQeX5oBblHb4hkHrdLcI7kBJgfYPsgCPg4=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\z4_Z3rsL6-Nb55IOLrCjKyXOxX0Vy3JOMvbBEM1tQ2A=.hash",
       "Source": "C:\\Users\\kamil\\Documents\\C#_Projects\\BlazorLearn\\BlazorLearn\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\BlazorLearn.pdb",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/BlazorLearn.pdb.gz"
     },
@@ -281,7 +411,7 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.webassembly.js.gz"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\GiC2ZMPSeQwWYJIEJdaN4e9qjcs7QNuqoZfdrpDQ-xY=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\TDv4PJYp1yfJLuQjcGuRPhjEzTQNp4MZhXNl3oqayTs=.hash",
       "Source": "C:\\Users\\kamil\\Documents\\C#_Projects\\BlazorLearn\\BlazorLearn\\obj\\Debug\\netstandard2.1\\blazor\\blazor.boot.json",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.boot.json.gz"
     }
