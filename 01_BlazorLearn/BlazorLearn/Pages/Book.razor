@@ -43,12 +43,12 @@
 
     void AddNewBook()
     {
-        if(newBook == null)
+        if (String.IsNullOrWhiteSpace(newBook.Title))
         {
             err = true;
             message = "Boş alan bırakmayınız...";
             alertCss = "alert alert-danger";
-        } 
+        }
         else
         {
             err = false;
