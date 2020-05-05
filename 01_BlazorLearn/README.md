@@ -9,5 +9,5 @@ en kullanışlı blazor özelliklerinden biri, `front DOM` öğelerimiz ile `bac
 Şimdi C# değişkenlerini, tarayıcıda görüntülenebilecek veya tarayıcıdaki kullanıcı girişi aracılığıyla değiştirilebilecek 
 şekilde bağlama tekniklerini olan binding incelenecek.
 
- - One-way Data Binding
+ - ``One-way Data Binding``
 İlk teknik, bir değişkenin değerini web sitenizin DOM öğesine ekleyecek tek yönlü bir bağlantıdır.

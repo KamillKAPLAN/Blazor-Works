@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kamil\\Desktop\\GitHubWorks\\BlazorApplications\\02_DevExpressProject\\DevExpressProject\\DevExpressProject\\DevExpressProject.csproj": {}
+    "C:\\Users\\kamil\\Desktop\\GitHubWorks\\Blazor_Works\\02_DevExpressProject\\DevExpressProject\\DevExpressProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kamil\\Desktop\\GitHubWorks\\BlazorApplications\\02_DevExpressProject\\DevExpressProject\\DevExpressProject\\DevExpressProject.csproj": {
+    "C:\\Users\\kamil\\Desktop\\GitHubWorks\\Blazor_Works\\02_DevExpressProject\\DevExpressProject\\DevExpressProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kamil\\Desktop\\GitHubWorks\\BlazorApplications\\02_DevExpressProject\\DevExpressProject\\DevExpressProject\\DevExpressProject.csproj",
+        "projectUniqueName": "C:\\Users\\kamil\\Desktop\\GitHubWorks\\Blazor_Works\\02_DevExpressProject\\DevExpressProject\\DevExpressProject.csproj",
         "projectName": "DevExpressProject",
-        "projectPath": "C:\\Users\\kamil\\Desktop\\GitHubWorks\\BlazorApplications\\02_DevExpressProject\\DevExpressProject\\DevExpressProject\\DevExpressProject.csproj",
+        "projectPath": "C:\\Users\\kamil\\Desktop\\GitHubWorks\\Blazor_Works\\02_DevExpressProject\\DevExpressProject\\DevExpressProject.csproj",
         "packagesPath": "C:\\Users\\kamil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kamil\\Desktop\\GitHubWorks\\BlazorApplications\\02_DevExpressProject\\DevExpressProject\\DevExpressProject\\obj\\",
+        "outputPath": "C:\\Users\\kamil\\Desktop\\GitHubWorks\\Blazor_Works\\02_DevExpressProject\\DevExpressProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kamil\\AppData\\Roaming\\NuGet\\NuGet.Config",
