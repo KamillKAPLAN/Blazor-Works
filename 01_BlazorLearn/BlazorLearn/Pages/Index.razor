@@ -4,4 +4,23 @@
 
 Welcome to your new app.
 
+<hr />
+
+<h1>Greetings, @userName</h1>
+
+<button class="btn btn-primary" @onclick="ToggleName">Change Name</button>
+
 <SurveyPrompt Title="How is Blazor working for you?" />
+
+@code{
+    string userName = "Lara";
+
+    void ToggleName()
+    {
+        if (userName == "Lara")
+            userName = "Mrs. Lara";
+        else
+            userName = "LARA";
+
+    }
+}
