@@ -12,7 +12,7 @@ en kullanışlı blazor özelliklerinden biri, `front DOM` öğelerimiz ile `bac
  - `One-way Data Binding`
 İlk teknik, bir değişkenin değerini web sitenizin DOM öğesine ekleyecek tek yönlü bir bağlantıdır.
 
-<h1>Greetings, @userName</h1>
+<h6>Greetings, @userName</h6>
 
 @code {
     string userName = "Bradley";
@@ -20,7 +20,7 @@ en kullanışlı blazor özelliklerinden biri, `front DOM` öğelerimiz ile `bac
 
  - `click-way Data Binding`
 
-<h1>Greetings, @userName</h1>
+<h6>Greetings, @userName</h6>
 
 <button class="btn btn-primary" @onclick="ToggleName">Change Name</button>
 
@@ -37,3 +37,21 @@ en kullanışlı blazor özelliklerinden biri, `front DOM` öğelerimiz ile `bac
 
  - `Two-way Data Binding
 
+## validation (doğrulama) : bir value'nin alanları için çeşitli kontrollerinin yapılması. 
+
+- Validation bizim nesnemizin iş kurallarına dahil etmek için 
+uygun olup olmadığını yapısal olarak belirlediğimiz noktadır. 
+Tamamen nesnenin yapısı ile ilgilenir.
+
+## models (folder) : bizim aslında arayüzde kullanıcıya gösterdiğimiz,
+o arayüzü ilgilendiren yapının ta kendisidir. 
+
+- Bir ürün ekleme sayafında o ürüne ait bilgiler bizim modelimizi 
+anlatır. 
+
+- model aslında bizim ekran `<b>classlarımızdır</b>`.
+
+- Blazor'ın .NET destekli olmasının `Data Annotation` özelliğinden yararlanmamıza olanak sağlar.
+
+## Data Annotation : bizim model nesnelerimizin üzerine bir `attribute` 
+vasıtasıyla kurallar koyma yöntemidir.
