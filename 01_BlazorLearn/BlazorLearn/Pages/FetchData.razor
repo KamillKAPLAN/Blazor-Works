@@ -7,7 +7,7 @@
 
 @if (forecasts == null)
 {
-    <p><em>Loading...</em></p>
+    <LoadingSpinner></LoadingSpinner>
 }
 else
 {
@@ -37,13 +37,13 @@ else
 @code {
     private WeatherForecast[] forecasts;
 
-    /* sayfa yüklendiði anda çalýþacak metodumuz 'OnInitializedAsync', böyle bir hazýr 
+    /* sayfa yüklendiði anda çalýþacak metodumuz 'OnInitializedAsync', böyle bir hazýr
      * event'imiz var. Dikkat edersek biz bunu 'override' edebiliyoruz. */
     protected override async Task OnInitializedAsync()
     {
         /* bu bizim herhangi bir api'yede istek yapabildiðimizi gösteriyor. */
         forecasts = await Http.GetFromJsonAsync<WeatherForecast[]>("sample-data/weather.json");
-    } 
+    }
 
     // Bizim için bir object(nesne) class'ýdýr.
     public class WeatherForecast
