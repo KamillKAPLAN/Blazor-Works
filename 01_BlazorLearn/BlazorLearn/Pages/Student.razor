@@ -1,5 +1,14 @@
-﻿<h3>Student</h3>
+﻿@page "/student"
+
+<h3>Students : @StudentList</h3>
+
+<StudentDetail StudentName="Kamil"></StudentDetail>
 
 @code {
+    public string StudentList { get; set; }
 
+    protected override async Task OnInitializedAsync()
+    {
+        StudentList = "Kamil İlyas Erkan";
+    }
 }
