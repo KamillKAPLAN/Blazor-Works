@@ -1,0 +1,26 @@
+﻿@page "/validation"
+@using BlazorLearn.Models
+
+<h3>Validation</h3>
+
+<EditForm Model="@productAddModel" OnValidSubmit="@HandleSave">
+    <DataAnnotationsValidator /> <!-- bunun kullanıldığı yerdeki 'attribute^lerin' devreye sokulacağı belirtiliyor.-->
+    <ValidationSummary /> <!-- validation problemini kullanıcıya göstermek için kullanılı -->
+    <InputText id="productName" @bind-Value="@productAddModel.ProductName"></InputText>
+    <button type="submit">Kaydet</button>
+</EditForm>
+
+@code {
+    /*
+     * validation'ı kullanabilmek için blazordan gelen hazır
+     * component'leri kullanmamız gerekmektedir.
+     */
+    ProductAddModel productAddModel = new ProductAddModel();
+
+    private void HandleSave()
+    {
+        Console.WriteLine("Product Added");
+
+        // 15. Video izlenmedi...
+    }
+}

@@ -45,12 +45,14 @@ Tamamen nesnenin yapısı ile ilgilenir.
 
 ## models (folder) : bizim aslında arayüzde kullanıcıya gösterdiğimiz, o arayüzü ilgilendiren yapının ta kendisidir. 
 
-- Bir ürün ekleme sayafında o ürüne ait bilgiler bizim modelimizi anlatır. 
+- Bir ürün ekleme sayfasında o ürüne ait bilgiler bizim modelimizi anlatır. 
 
--- model aslında bir `Encapsulation` OOP tekniğidir.
+- model aslında bir `Encapsulation` OOP tekniğidir.
 
 - model aslında bizim ekran `classlarımızdır`.
 
 - Blazor'ın .NET destekli olmasının `Data Annotation` özelliğinden yararlanmamıza olanak sağlar.
 
 ## Data Annotation : bizim model nesnelerimizin üzerine bir `attribute` vasıtasıyla kurallar koyma yöntemidir.
+
+- validation'ı kullanabilmek için blazordan gelen hazır component'leri kullanmamız gerekmektedir.
