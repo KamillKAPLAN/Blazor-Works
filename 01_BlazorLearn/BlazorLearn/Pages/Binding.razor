@@ -1,0 +1,18 @@
+﻿@page "/binding"
+
+<h3>Binding</h3>
+
+<!-- @bind -->
+<input @bind="FirstName" />
+
+<h3>@FirstName</h3>
+
+<!-- @bind-value:event="oninput" -> eğer anında değişmesini istersek kullanıyoruz. -->
+<input @bind-value="LastName" @bind-value:event="oninput" />
+
+<h3>@LastName</h3>
+
+@code {
+    public string FirstName { get; set; } = "Kamil";
+    public string LastName { get; set; } = "KAPLAN";
+}
