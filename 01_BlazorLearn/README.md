@@ -43,15 +43,14 @@ en kullanışlı blazor özelliklerinden biri, `front DOM` öğelerimiz ile `bac
 uygun olup olmadığını yapısal olarak belirlediğimiz noktadır. 
 Tamamen nesnenin yapısı ile ilgilenir.
 
-## models (folder) : bizim aslında arayüzde kullanıcıya gösterdiğimiz,
-o arayüzü ilgilendiren yapının ta kendisidir. 
+## models (folder) : bizim aslında arayüzde kullanıcıya gösterdiğimiz, o arayüzü ilgilendiren yapının ta kendisidir. 
 
-- Bir ürün ekleme sayafında o ürüne ait bilgiler bizim modelimizi 
-anlatır. 
+- Bir ürün ekleme sayafında o ürüne ait bilgiler bizim modelimizi anlatır. 
 
-- model aslında bizim ekran `<b>classlarımızdır</b>`.
+-- model aslında bir `Encapsulation` OOP tekniğidir.
+
+- model aslında bizim ekran `classlarımızdır`.
 
 - Blazor'ın .NET destekli olmasının `Data Annotation` özelliğinden yararlanmamıza olanak sağlar.
 
-## Data Annotation : bizim model nesnelerimizin üzerine bir `attribute` 
-vasıtasıyla kurallar koyma yöntemidir.
+## Data Annotation : bizim model nesnelerimizin üzerine bir `attribute` vasıtasıyla kurallar koyma yöntemidir.
