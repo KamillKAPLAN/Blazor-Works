@@ -10,10 +10,9 @@
 <input class="form-control" id="parameterwithsictionary" 
        @attributes="InputAttributes"/>
 
-
 @code {
     [Parameter]
-    public int MaxLength { get; set; } = 10;
+    public int MaxLength { get; set; } = 10; // default özelliğini bu şekilde verebiliriz.
     [Parameter]
     public string Placeholder { get; set; } = "First Name";
     [Parameter]
@@ -28,5 +27,4 @@
         {"required", "required"},
         {"size", 10}
     };
-
 }
