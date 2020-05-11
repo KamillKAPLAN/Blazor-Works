@@ -5,16 +5,29 @@
 
 <EditForm Model="@productAddModel" OnValidSubmit="@HandleSave">
     <DataAnnotationsValidator />
-    <h4>Product Name : </h4>
-    <InputText class="form-control" id="productName" @bind-Value="@productAddModel.ProductName" /> <br />
-    <h4>Product Description : </h4>
-    <InputText class="form-control" id="productDescription" @bind-Value="productAddModel.Description" /> <br />
-    <h4>Product Category : </h4>
-    <InputSelect class="form-control" id="productCategory" @bind-Value="productAddModel.CategoryId">
-        <option value="1"> İçecek</option>
-        <option value="2"> Yiyecek</option>
-    </InputSelect> <br />
-    <button class="btn btn-success" type="submit">Kaydet</button> <br /> <br />
+    <div class="form-group">
+        <InputText Placeholder="Product Name : " 
+                   Class="form-control" 
+                   Id="productName" 
+                   @bind-Value="@productAddModel.ProductName" /> <br />
+    </div>
+    <div class="form-group">
+        <InputTextArea Placeholder="Product Description : " 
+                   Class="form-control" 
+                   Id="productDescription" 
+                   @bind-Value="productAddModel.Description" /> <br />
+
+    </div>
+    <div class="form-group">
+        <InputSelect Class="form-control" 
+                     Id="productCategory" 
+                     @bind-Value="productAddModel.CategoryId">
+            <option value="1"> İçecek</option>
+            <option value="2"> Yiyecek</option>
+        </InputSelect> <br />
+    </div>
+
+    <button class="btn btn-primary" type="submit">Kaydet</button> <br /> <br />
     <ValidationSummary />
 </EditForm>
 
