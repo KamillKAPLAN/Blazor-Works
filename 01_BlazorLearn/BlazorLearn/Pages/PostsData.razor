@@ -29,8 +29,7 @@ else
 
 
 @code {
-
-    PostsItem[] posts; /* nesne sınıfı */
+    private PostsItem[] posts; /* nesne sınıfı */
 
     protected override async Task OnInitializedAsync()
     {
@@ -41,6 +40,7 @@ else
          *** Operasyon sınıfların çıplak class olarak kalmamalıdır. 
          */
         posts = await Api.GetPosts();
+        // posts = await Http.GetFromJsonAsync<PostsItem[]>("https://jsonplaceholder.typicode.com/posts");
     }
 
 

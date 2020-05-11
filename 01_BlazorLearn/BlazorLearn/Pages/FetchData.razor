@@ -44,7 +44,8 @@ else
     {
         /* bu bizim herhangi bir api'yede istek yapabildiðimizi gösteriyor. */
         forecasts = await Http.GetFromJsonAsync<WeatherForecast[]>("sample-data/weather.json");
-        Navigation.NavigateTo("datail");
+        Console.WriteLine(Navigation.Uri); // Þuanda hangi sayfada olduðumuz 'Uri' vasýtasýyla alabiliyoruz.
+        Navigation.NavigateTo("detail");
     }
 
     // Bizim için bir object(nesne) class'ýdýr.
