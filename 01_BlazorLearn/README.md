@@ -56,3 +56,13 @@ Tamamen nesnenin yapısı ile ilgilenir.
 ## Data Annotation : bizim model nesnelerimizin üzerine bir `attribute` vasıtasıyla kurallar koyma yöntemidir.
 
 - validation'ı kullanabilmek için blazordan gelen hazır component'leri kullanmamız gerekmektedir.
+
+## Dependency Injection
+
+- AddSingleton() : bu client için bir nesne oluşturuyor ve tamamen client uygulama boyunca onu kullanıyor. Aynı referansı kullanıyor, böylece bunu defalarca new new yapmıyor. Data tutma işlemi için kullanılmaz. 
+- AddTransient() : her istekte service yenileniyor. Data tutan ortamlar vve o datayı paylaşmak istemediğimiz ortamlarda kullanırız. Aynı nesne türünden iki kere istediğimizde iki kere new yapar.
+- AddScoped()    : bir bağlantıda aynı nesneden iki kere istediğimizde bir tane new veriyor. 
+  
+- `singleton` : uygulama ilk ayağa kalktığı anda, servisin tek bir instance’ı oluşturularak memory’de tutulur ve daha sonrasında her servis çağrısında bu instance gönderilir.
+- `scoped`    : her request için tek bir instance yaratılmasını sağlayan lifetime seçeneğidir. request cycle’ı tamamlanana kadar gerçekleşen servis çağrılarında daha önce oluşturulan instance gönderilir. daha sonra yeni bir request başladığında farklı bir instance oluşturulur.
+- `transient` : her servis çağrısında yeni bir instance oluşturulur. bağlayıcılığı en az olan lifetime seçeneğidir.

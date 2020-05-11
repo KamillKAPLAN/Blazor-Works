@@ -1,5 +1,6 @@
 @page "/fetchdata"
 @inject HttpClient Http
+@inject NavigationManager Navigation
 
 <h1>Weather forecast</h1>
 
@@ -43,6 +44,7 @@ else
     {
         /* bu bizim herhangi bir api'yede istek yapabildiðimizi gösteriyor. */
         forecasts = await Http.GetFromJsonAsync<WeatherForecast[]>("sample-data/weather.json");
+        Navigation.NavigateTo("datail");
     }
 
     // Bizim için bir object(nesne) class'ýdýr.
