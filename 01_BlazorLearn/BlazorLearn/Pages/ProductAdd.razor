@@ -1,0 +1,29 @@
+﻿@page "/productAdd"
+@using BlazorLearn.Models
+
+<h3>Product Add</h3>
+
+<EditForm Model="@productAddModel" OnValidSubmit="@HandleSave">
+    <DataAnnotationsValidator />
+    <h4>Product Name : </h4>
+    <InputText class="form-control" id="productName" @bind-Value="@productAddModel.ProductName" /> <br />
+    <h4>Product Description : </h4>
+    <InputText class="form-control" id="productDescription" @bind-Value="productAddModel.Description" /> <br />
+    <h4>Product Category : </h4>
+    <InputSelect class="form-control" id="productCategory" @bind-Value="productAddModel.CategoryId">
+        <option value="1"> İçecek</option>
+        <option value="2"> Yiyecek</option>
+    </InputSelect> <br />
+    <button class="btn btn-success" type="submit">Kaydet</button> <br /> <br />
+    <ValidationSummary />
+</EditForm>
+
+@code {
+    ProductAddModel productAddModel = new ProductAddModel();
+
+    private void HandleSave()
+    {
+        Console.WriteLine("Product Added");
+    }
+
+}

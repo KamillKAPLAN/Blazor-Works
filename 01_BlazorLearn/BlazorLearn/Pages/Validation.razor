@@ -10,12 +10,12 @@
 
 <EditForm Model="@productAddModel" OnValidSubmit="@HandleSave">
     <DataAnnotationsValidator /> <!-- bunun kullanıldığı yerdeki 'attribute^lerin' devreye sokulacağı belirtiliyor.-->
-    <h4>ProductName : </h4>
+    <h4>Product Name : </h4>
     <InputText class="form-control" id="productName" @bind-Value="@productAddModel.ProductName"></InputText> <br />
     <h4>Product Description : </h4>
     <InputText class="form-control" id="description" @bind-Value="@productAddModel.Description"></InputText> <br />
     <button class="btn btn-success" type="submit">Kaydet</button> <br /> <br />
-    <ValidationSummary /> <!-- validation hatalarını kullanıcıya göstermek için kullanılı -->
+    <ValidationSummary /> <!-- validation hatalarını kullanıcıya göstermek için kullanılır -->
 </EditForm>
 
 @code {
