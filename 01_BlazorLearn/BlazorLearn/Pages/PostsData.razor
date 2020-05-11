@@ -1,5 +1,8 @@
 ﻿@page "/posts"
 @inject HttpClient Http
+@inject IApiService Api
+@using BlazorLearn.Models;
+@using BlazorLearn.Services
 
 <h3>Posts</h3>
 
@@ -27,19 +30,18 @@ else
 
 @code {
 
-    PostsItem[] posts;
+    PostsItem[] posts; /* nesne sınıfı */
 
     protected override async Task OnInitializedAsync()
     {
-        posts = await Http.GetFromJsonAsync<PostsItem[]>("https://jsonplaceholder.typicode.com/posts");
-        Console.WriteLine(posts);
+
+        /* JsonPlacerHolderApi jsonPlacerHolder = new JsonPlacerHolderApi(Http); 
+         * "operasyon sınıfı", bu sınıfları (new) anahtarı ile kullanıyorsak buna bağımlılığımız olduğu anlamına gelir. 
+         * bu bağımlılığı minimize etmek için "dependecy injection" design pattern'i kullanırız. 
+         *** Operasyon sınıfların çıplak class olarak kalmamalıdır. 
+         */
+        posts = await Api.GetPosts();
     }
 
-    public class PostsItem
-    {
-        public int userId { get; set; }
-        public int id { get; set; }
-        public string title { get; set; }
-        public string body { get; set; }
-    }
+
 }

@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using System.Text;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using Microsoft.Extensions.DependencyInjection;
+using BlazorLearn.Services;
 
 namespace BlazorLearn
 {
@@ -16,6 +17,10 @@ namespace BlazorLearn
             builder.RootComponents.Add<App>("app");
 
             builder.Services.AddSingleton(new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
+
+            /* Dependency Injection IOS Begin */
+            builder.Services.AddSingleton<IApiService, JsonPlacerHolderApi>();
+            /* Dependency Injection IOS End */
 
             await builder.Build().RunAsync();
         }
