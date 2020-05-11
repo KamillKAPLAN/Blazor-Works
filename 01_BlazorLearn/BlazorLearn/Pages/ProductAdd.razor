@@ -6,29 +6,37 @@
 <EditForm Model="@productAddModel" OnValidSubmit="@HandleSave">
     <DataAnnotationsValidator />
     <div class="form-group">
-        <InputText Placeholder="Product Name : " 
-                   Class="form-control" 
-                   Id="productName" 
-                   @bind-Value="@productAddModel.ProductName" /> <br />
+        <InputText Placeholder="Product Name : "
+                   Class="form-control"
+                   Id="productName"
+                   @bind-Value="@productAddModel.ProductName" />
+        <ValidationMessage For="@(() => productAddModel.ProductName)" />
+        @* - ValidationMessage component'imiz For="" parametremizi alır.
+         * For 'lambda expression(ifade)' ile kullanılır. @(() => )
+        *@
+        <br />
     </div>
     <div class="form-group">
-        <InputTextArea Placeholder="Product Description : " 
-                   Class="form-control" 
-                   Id="productDescription" 
-                   @bind-Value="productAddModel.Description" /> <br />
-
+        <InputTextArea Placeholder="Product Description : "
+                       Class="form-control"
+                       Id="productDescription"
+                       @bind-Value="productAddModel.Description" />
+        <ValidationMessage For="@(() => productAddModel.Description)" />
+        <br />
     </div>
     <div class="form-group">
-        <InputSelect Class="form-control" 
-                     Id="productCategory" 
+        <InputSelect Class="form-control"
+                     Id="productCategory"
                      @bind-Value="productAddModel.CategoryId">
             <option value="1"> İçecek</option>
             <option value="2"> Yiyecek</option>
-        </InputSelect> <br />
+        </InputSelect>
+        <ValidationMessage For="@(() => productAddModel.CategoryId)" />
+        <br />
     </div>
 
     <button class="btn btn-primary" type="submit">Kaydet</button> <br /> <br />
-    <ValidationSummary />
+    @*<ValidationSummary />*@
 </EditForm>
 
 @code {
