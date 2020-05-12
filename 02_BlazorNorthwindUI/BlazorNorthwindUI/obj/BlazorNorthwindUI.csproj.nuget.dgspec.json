@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kamil\\Desktop\\GitHubWorks\\Blazor_Works\\BlazorNorthwindUI\\BlazorNorthwindUI\\BlazorNorthwindUI.csproj": {}
+    "C:\\Users\\kamil\\Desktop\\GitHubWorks\\Blazor_Works\\02_BlazorNorthwindUI\\BlazorNorthwindUI\\BlazorNorthwindUI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kamil\\Desktop\\GitHubWorks\\Blazor_Works\\BlazorNorthwindUI\\BlazorNorthwindUI\\BlazorNorthwindUI.csproj": {
+    "C:\\Users\\kamil\\Desktop\\GitHubWorks\\Blazor_Works\\02_BlazorNorthwindUI\\BlazorNorthwindUI\\BlazorNorthwindUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kamil\\Desktop\\GitHubWorks\\Blazor_Works\\BlazorNorthwindUI\\BlazorNorthwindUI\\BlazorNorthwindUI.csproj",
+        "projectUniqueName": "C:\\Users\\kamil\\Desktop\\GitHubWorks\\Blazor_Works\\02_BlazorNorthwindUI\\BlazorNorthwindUI\\BlazorNorthwindUI.csproj",
         "projectName": "BlazorNorthwindUI",
-        "projectPath": "C:\\Users\\kamil\\Desktop\\GitHubWorks\\Blazor_Works\\BlazorNorthwindUI\\BlazorNorthwindUI\\BlazorNorthwindUI.csproj",
+        "projectPath": "C:\\Users\\kamil\\Desktop\\GitHubWorks\\Blazor_Works\\02_BlazorNorthwindUI\\BlazorNorthwindUI\\BlazorNorthwindUI.csproj",
         "packagesPath": "C:\\Users\\kamil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kamil\\Desktop\\GitHubWorks\\Blazor_Works\\BlazorNorthwindUI\\BlazorNorthwindUI\\obj\\",
+        "outputPath": "C:\\Users\\kamil\\Desktop\\GitHubWorks\\Blazor_Works\\02_BlazorNorthwindUI\\BlazorNorthwindUI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kamil\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -38,6 +38,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Extensions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
