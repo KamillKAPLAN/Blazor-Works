@@ -6,7 +6,7 @@
   "linkerEnabled": false,
   "resources": {
     "assembly": {
-      "PlannerApp.Client.dll": "sha256-GJkxFXu0UeY5Be+nprXx80rRXbaGsQi0EXZaLLAWsWk=",
+      "PlannerApp.Client.dll": "sha256-tLIigOsdzW2aEwUPRNvK9KOY+gkS9Od2tCFdCgguWck=",
       "System.Net.Http.Json.dll": "sha256-mfk4mGJNEuOK1ya6HNucfAmophVZxc+JZZGUjS6Ch2g=",
       "System.Buffers.dll": "sha256-ZxXy75PYbzJxNfAc\/SAP1nUYm4gt1jSaOpFnBb9m85M=",
       "mscorlib.dll": "sha256-\/wH+cZ4GWv76l2ip\/cTl2COsQjLmNljfkZi4H9zaHBc=",
@@ -38,18 +38,19 @@
       "System.Numerics.Vectors.dll": "sha256-6isumOmKraghJxnUrGbNhFd6Qxj09gTHFQ\/0CAhEnZs=",
       "System.Text.Encodings.Web.dll": "sha256-hbEA2pdvgll2bWeJXCtehEV3kl3WFnBgQj6ttcesEA4=",
       "Microsoft.Extensions.DependencyInjection.Abstractions.dll": "sha256-ycn\/UHLnjC77BNvsurP4mkuYP8oud1oVyfSSlZKMymc=",
-      "Microsoft.AspNetCore.Components.Web.dll": "sha256-v4LhihP26fP\/dVajppSCZIrCVbkiALCJgAisyG2cmJQ=",
-      "Microsoft.AspNetCore.Components.Forms.dll": "sha256-e0FY4g2Vt8TsXfafkXU2XnUgcYzjzPiFqb3KCylDb74=",
+      "Radzen.Blazor.dll": "sha256-edJneKdSd+DUhsH3Vr+GsU\/h5dYcv+nQ6XsAFPMv\/Ao=",
       "System.ComponentModel.Annotations.dll": "sha256-tmnkCmP9OzLUkpQ3LP7PRosi7gt5pyfEZCM6aqAokFI=",
       "System.ComponentModel.DataAnnotations.dll": "sha256-3nH8Hgu\/ahDHfhB+akpjyf58+vclsE3z7TdznTofz\/c=",
-      "Microsoft.AspNetCore.Components.dll": "sha256-jqp6xS5jDFDsISGorhiYZQ2if3hAiols6d4C5BNnMQ4=",
-      "Microsoft.Extensions.Logging.Abstractions.dll": "sha256-45ia6XmGIa5WI3cHUIE9KhVornlZleYW+B5FPpfD1wQ=",
-      "Radzen.Blazor.dll": "sha256-edJneKdSd+DUhsH3Vr+GsU\/h5dYcv+nQ6XsAFPMv\/Ao=",
       "Microsoft.CSharp.dll": "sha256-svYnqg2UFowYLUZuGc25hrCqoN8x8TI7WCGoKEJG5lQ=",
       "System.Linq.Dynamic.Core.dll": "sha256-aHqvd\/TLf\/ZZOpXlafzNNthD2HjPJLadm9zDFZWm39k=",
       "System.Reflection.Emit.ILGeneration.dll": "sha256-yTznKFXYjwtGYUGUdxYEw8gA1A+IWlMYOncOmAAyJas=",
       "System.Reflection.Emit.dll": "sha256-4A297N6Xf0UZNMTrY+4COe43Hmcrtxb\/eTiqTJ5M6wA=",
+      "Microsoft.AspNetCore.Components.Web.dll": "sha256-v4LhihP26fP\/dVajppSCZIrCVbkiALCJgAisyG2cmJQ=",
+      "Microsoft.AspNetCore.Components.Forms.dll": "sha256-e0FY4g2Vt8TsXfafkXU2XnUgcYzjzPiFqb3KCylDb74=",
+      "Microsoft.AspNetCore.Components.dll": "sha256-jqp6xS5jDFDsISGorhiYZQ2if3hAiols6d4C5BNnMQ4=",
+      "Microsoft.Extensions.Logging.Abstractions.dll": "sha256-45ia6XmGIa5WI3cHUIE9KhVornlZleYW+B5FPpfD1wQ=",
       "Microsoft.JSInterop.dll": "sha256-K3dpli228kQQ75WVqoiIdmn8u8q8gZHixcWDdCHCRgU=",
+      "PlannerApp.Shared.dll": "sha256-IVcv3rXt2EQyQer8ZsvIAznA2RO8T+I00sHkGUUtxlU=",
       "Microsoft.AspNetCore.Components.WebAssembly.dll": "sha256-oZtVKBjmqOsIlSUbydq1eeob6CSHoYyTDksteqmu2hE=",
       "Microsoft.Extensions.DependencyInjection.dll": "sha256-8Y81cOKaNJHZZvHu0TROikruBOenBHdE5WwI2BOkNNE=",
       "Microsoft.Extensions.Configuration.dll": "sha256-iUTfpj7A29tIp2gl2fLM+w1MwyI8XMmUV8gFe+mJBZI=",
@@ -65,8 +66,9 @@
       "Microsoft.JSInterop.WebAssembly.dll": "sha256-UHHbIPOST1VljxOGBjumdiXVIX1msdTpgJldZgWTemo="
     },
     "pdb": {
-      "PlannerApp.Client.pdb": "sha256-qE9n\/SbCoRmdxKOgXXTFCRZEIz2jSvtTBjmSxVI0GEM=",
-      "System.Linq.Dynamic.Core.pdb": "sha256-TUdNbGDz+ogqJea4nbn9e5NAJa8g20Wv3as0sLQ8J+o="
+      "PlannerApp.Client.pdb": "sha256-3ciCMbYTYPSAMvK6QuBXU9yUYXG\/A6+ADy9sZ14ssJk=",
+      "System.Linq.Dynamic.Core.pdb": "sha256-TUdNbGDz+ogqJea4nbn9e5NAJa8g20Wv3as0sLQ8J+o=",
+      "PlannerApp.Shared.pdb": "sha256-465HIKucavya1rwJlLTgynqXV1ncYStjm+u8lYY8Jr8="
     },
     "runtime": {
       "dotnet.3.2.0-preview5.20210.1.js": "sha256-\/uExEU5ECP+u0FDAudLlva53SiNUut4PPcG9xnAVikc=",

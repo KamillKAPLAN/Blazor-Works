@@ -1,28 +1,8 @@
 ﻿@page "/"
-@layout AuthLayout
 
 <div class="row">
     <div class="col-12">
         <h3>Simple login</h3>
-        <RadzenCard Style="padding: 10px; background: none; border: none;">
-            <RadzenLogin AllowRegister="false"
-                         AllowResetPassword="false"
-                         Login="@((args) => Login(args, "Simple login"))"
-                         Style="margin-bottom: 20px;" />
-        </RadzenCard>
     </div>
 </div>
 <SurveyPrompt Title="How is Blazor working for you?" />
-
-@code {
-    string userName = "admin";
-    string password = "admin";
-
-    Dictionary<DateTime, string> events = new Dictionary<DateTime, string>();
-
-    void Login(LoginArgs args, string name)
-    {
-        events.Add(DateTime.Now, $"{name} -> Username: {args.Username} and password: {args.Password}");
-        StateHasChanged();
-    }
-}
