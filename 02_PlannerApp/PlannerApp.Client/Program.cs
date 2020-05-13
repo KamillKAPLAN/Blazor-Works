@@ -17,6 +17,7 @@ namespace PlannerApp.Client
 
             builder.Services.AddSingleton(new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
 
+            // builder.Services.AddDevExpressBlazor();
             await builder.Build().RunAsync();
         }
     }

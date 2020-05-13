@@ -8,11 +8,11 @@
 Razor Kod Örneği (**AuthLayout.razor**): 
 
 ```C#
-**@inherits LayoutComponentBase**
+@inherits LayoutComponentBase
 
 <div class="middle-box">
     <h1>Welcome to PlannerApp</h1>
-    **@Body**
+    @Body
 </div>
 ```
 
@@ -20,7 +20,7 @@ Razor Kod Örneği (**AuthLayout.razor**):
 
 ```C#
 @page "/"
-**@layout AuthLayout**
+@layout AuthLayout
 
 <div class="row">
     <div class="col-12">

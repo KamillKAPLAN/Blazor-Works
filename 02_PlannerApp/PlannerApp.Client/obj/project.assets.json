@@ -586,6 +586,19 @@
         "runtime": {
           "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
         }
+      },
+      "PlannerApp.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "System.ComponentModel.Annotations": "4.7.0"
+        },
+        "compile": {
+          "bin/placeholder/PlannerApp.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PlannerApp.Shared.dll": {}
+        }
       }
     }
   },
@@ -2289,6 +2302,11 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "PlannerApp.Shared/1.0.0": {
+      "type": "project",
+      "path": "../PlannerApp.Shared/PlannerApp.Shared.csproj",
+      "msbuildProject": "../PlannerApp.Shared/PlannerApp.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -2296,6 +2314,7 @@
       "Microsoft.AspNetCore.Components.WebAssembly >= 3.2.0-preview4.20210.8",
       "Microsoft.AspNetCore.Components.WebAssembly.Build >= 3.2.0-preview4.20210.8",
       "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 3.2.0-preview4.20210.8",
+      "PlannerApp.Shared >= 1.0.0",
       "Radzen.Blazor >= 2.7.2",
       "System.Net.Http.Json >= 3.2.0-preview5.20210.3"
     ]
@@ -2326,7 +2345,11 @@
       },
       "frameworks": {
         "netstandard2.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\kamil\\Desktop\\GitHubWorks\\Blazor_Works\\02_PlannerApp\\PlannerApp.Shared\\PlannerApp.Shared.csproj": {
+              "projectPath": "C:\\Users\\kamil\\Desktop\\GitHubWorks\\Blazor_Works\\02_PlannerApp\\PlannerApp.Shared\\PlannerApp.Shared.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
