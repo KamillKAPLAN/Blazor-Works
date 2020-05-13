@@ -384,6 +384,6 @@ C:\Users\kamil\Desktop\GitHubWorks\Blazor_Works\02_PlannerApp\PlannerApp.Client\
 C:\Users\kamil\Desktop\GitHubWorks\Blazor_Works\02_PlannerApp\PlannerApp.Client\obj\Debug\netstandard2.1\staticwebassets\PlannerApp.Client.StaticWebAssets.xml
 C:\Users\kamil\Desktop\GitHubWorks\Blazor_Works\02_PlannerApp\PlannerApp.Client\obj\Debug\netstandard2.1\PlannerApp.Client.dll
 C:\Users\kamil\Desktop\GitHubWorks\Blazor_Works\02_PlannerApp\PlannerApp.Client\obj\Debug\netstandard2.1\PlannerApp.Client.pdb
-C:\Users\kamil\Desktop\GitHubWorks\Blazor_Works\02_PlannerApp\PlannerApp.Client\obj\Debug\netstandard2.1\integrity\vC-mUGjBnM1k28GeYJbRCIk27TQHzq7Az-M6GCsiaQw=.hash
-C:\Users\kamil\Desktop\GitHubWorks\Blazor_Works\02_PlannerApp\PlannerApp.Client\obj\Debug\netstandard2.1\integrity\9vRrohwq3VlAZGrxvSxQLqh5SbWGfAJvMCSlEvM9kLo=.hash
-C:\Users\kamil\Desktop\GitHubWorks\Blazor_Works\02_PlannerApp\PlannerApp.Client\obj\Debug\netstandard2.1\integrity\32IlGQ42NRzl2bT7eSY4d1pCyi3elEQUy9G7YANsgXo=.hash
+C:\Users\kamil\Desktop\GitHubWorks\Blazor_Works\02_PlannerApp\PlannerApp.Client\obj\Debug\netstandard2.1\integrity\akAQmSokQP-sa7RIOuws4-hrQuk-Z3no3LGYwTLZQTo=.hash
+C:\Users\kamil\Desktop\GitHubWorks\Blazor_Works\02_PlannerApp\PlannerApp.Client\obj\Debug\netstandard2.1\integrity\9yI49BplStzz68ht19O5ng0Ggwj7iSrXixS5czWDax8=.hash
+C:\Users\kamil\Desktop\GitHubWorks\Blazor_Works\02_PlannerApp\PlannerApp.Client\obj\Debug\netstandard2.1\integrity\VH3ddnWaW1sFBKkOJ2bwsh5m645J08BDTFOsPo4Kj8E=.hash
