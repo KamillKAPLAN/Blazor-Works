@@ -1,47 +1,28 @@
 ﻿@page "/"
+@layout AuthLayout
 
-<h1>Radzen Blazor Chart pie series</h1>
 <div class="row">
-    <div class="col-md-6 col-sm-12 p-4">
-        <RadzenChart>
-            <RadzenPieSeries Data="@revenue" 
-                             Title="Revenue" 
-                             CategoryProperty="Quarter" 
-                             ValueProperty="Revenue" />
-        </RadzenChart>
+    <div class="col-12">
+        <h3>Simple login</h3>
+        <RadzenCard Style="padding: 10px; background: none; border: none;">
+            <RadzenLogin AllowRegister="false"
+                         AllowResetPassword="false"
+                         Login="@((args) => Login(args, "Simple login"))"
+                         Style="margin-bottom: 20px;" />
+        </RadzenCard>
     </div>
 </div>
-
-
 <SurveyPrompt Title="How is Blazor working for you?" />
 
 @code {
-    class DataItem
-    {
-        public string Quarter { get; set; }
-        public double Revenue { get; set; }
-    }
+    string userName = "admin";
+    string password = "admin";
 
-    DataItem[] revenue = new DataItem[] {
-        new DataItem
-        {
-            Quarter = "Q1",
-            Revenue = 30000
-        },
-        new DataItem
-        {
-            Quarter = "Q2",
-            Revenue = 40000
-        },
-        new DataItem
-        {
-            Quarter = "Q3",
-            Revenue = 50000
-        },
-        new DataItem
-        {
-            Quarter = "Q4",
-            Revenue = 80000
-        },
-    };
+    Dictionary<DateTime, string> events = new Dictionary<DateTime, string>();
+
+    void Login(LoginArgs args, string name)
+    {
+        events.Add(DateTime.Now, $"{name} -> Username: {args.Username} and password: {args.Password}");
+        StateHasChanged();
+    }
 }
