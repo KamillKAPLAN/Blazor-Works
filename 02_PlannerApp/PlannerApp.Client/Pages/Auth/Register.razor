@@ -1,8 +1,10 @@
 ﻿@page "/auth/register"
+@layout AuthLayout
 
 @using PlannerApp.Shared.Models
 
-@layout AuthLayout
+@inject AuthenticationService authService
+@inject NavigationManager navigationManager
 
 <div class="row">
     <div class="col-12">
@@ -12,6 +14,11 @@
             @*<ValidationSummary />*@
 
             <RadzenCard>
+                @if (!String.IsNullOrWhiteSpace(message))
+                {
+                    <div class="alert alert-info">@message</div>
+                }
+
                 <label>First Name</label>
                 <RadzenTextBox @bind-Value="registerRequest.FirstName"></RadzenTextBox>
                 <ValidationMessage For="@(()=>registerRequest.FirstName)" />
@@ -35,12 +42,13 @@
                 <hr />
 
                 <RadzenButton ButtonType="Radzen.ButtonType.Submit" Text="Register"
-                              ButtonStyle="Radzen.ButtonStyle.Primary" class="btn-block mr-2" />
+                              ButtonStyle="Radzen.ButtonStyle.Primary" class="btn-block mr-2"
+                              Disabled="isBusy" />
                 <RadzenButton ButtonType="Radzen.ButtonType.Button" Text="Login"
-                              ButtonStyle="Radzen.ButtonStyle.Secondary" class="btn-block mr-2" />
+                              ButtonStyle="Radzen.ButtonStyle.Secondary" class="btn-block mr-2"
+                              Disabled="isBusy" />
             </RadzenCard>
         </EditForm>
-
     </div>
 </div>
 
@@ -48,8 +56,22 @@
 @code {
     RegisterRequest registerRequest = new RegisterRequest();
 
-    public void RegisterUser()
-    {
+    bool isBusy = false;
+    string message = string.Empty;
 
+    public async Task RegisterUser()
+    {
+        isBusy = true;
+        var result = await authService.RegisterUserAsync(registerRequest);
+
+        if (result.IsSuccess)
+        {
+            message = result.Message;
+        }
+        else
+        {
+            message = result.Message;
+        }
+        isBusy = false;
     }
 }
