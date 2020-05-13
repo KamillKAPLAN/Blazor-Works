@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "cv9oDMMpEX09xdubGVOThLxgSJEm4lrMZlOz99BvZGnLFftDXLkaz3c1qMr+rM/duhOw8YPj3g1JDM8BCmTRUg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\kamil\\Desktop\\GitHubWorks\\Blazor_Works\\02_PlannerApp\\PlannerApp.Shared\\PlannerApp.Shared.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kamil\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\kamil\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
