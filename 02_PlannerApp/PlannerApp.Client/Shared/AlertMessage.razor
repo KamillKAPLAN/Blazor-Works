@@ -1,0 +1,42 @@
+﻿@if (!String.IsNullOrWhiteSpace(Message))
+{
+    <div class="alert @alertCss">@Message <span @onclick="HideMessage">x</span></div>
+}
+
+@code {
+    [Parameter]
+    public string Message { get; set; }
+
+    private Models.AlertMessageType messageType;
+
+    [Parameter]
+    public Models.AlertMessageType MessageType
+    {
+        get => messageType;
+        set
+        {
+            messageType = value;
+            switch (messageType)
+            {
+                case Models.AlertMessageType.Error:
+                    alertCss = "alert-danger";
+                    break;
+                case Models.AlertMessageType.Warning:
+                    alertCss = "alert-warning";
+                    break;
+                case Models.AlertMessageType.Success:
+                    alertCss = "alert-succcess";
+                    break;
+                default:
+                    break;
+            }
+        }
+    }
+
+    string alertCss = "alert-info";
+
+    void HideMessage()
+    {
+        Message = string.Empty;
+    }
+}
