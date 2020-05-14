@@ -10,11 +10,11 @@
     <div class="col-12">
         <h2>Create a new account</h2>
         <EditForm Model="@registerRequest" OnValidSubmit="RegisterUser">
-            <DataAnnotationsValidator />
-            @*<ValidationSummary />*@
-
             <RadzenCard>
                 <AlertMessage Message="@message" MessageType="@messageType" />
+
+                <DataAnnotationsValidator />
+                @*<ValidationSummary />*@
 
                 <label>First Name</label>
                 <RadzenTextBox @bind-Value="registerRequest.FirstName"></RadzenTextBox>
@@ -43,7 +43,7 @@
                               Disabled="isBusy" />
                 <RadzenButton ButtonType="Radzen.ButtonType.Button" Text="Login"
                               ButtonStyle="Radzen.ButtonStyle.Secondary" class="btn-block mr-2"
-                              Disabled="isBusy" Click="GoToLogin"/>
+                              Disabled="isBusy" Click="GoToLogin" />
             </RadzenCard>
         </EditForm>
     </div>

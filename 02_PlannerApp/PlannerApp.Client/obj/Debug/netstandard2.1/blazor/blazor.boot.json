@@ -6,7 +6,7 @@
   "linkerEnabled": false,
   "resources": {
     "assembly": {
-      "PlannerApp.Client.dll": "sha256-lxpyXYKSeYiLzRKm5gqQkcfR+ODFNnzQqx+bgocyht8=",
+      "PlannerApp.Client.dll": "sha256-d7xOleRdgpH6MXGxnkYaSB9zGjMU3bT4vI4TB0wcuv8=",
       "System.Net.Http.Json.dll": "sha256-mfk4mGJNEuOK1ya6HNucfAmophVZxc+JZZGUjS6Ch2g=",
       "System.Buffers.dll": "sha256-ZxXy75PYbzJxNfAc\/SAP1nUYm4gt1jSaOpFnBb9m85M=",
       "mscorlib.dll": "sha256-\/wH+cZ4GWv76l2ip\/cTl2COsQjLmNljfkZi4H9zaHBc=",
@@ -63,14 +63,14 @@
       "Microsoft.Extensions.Logging.dll": "sha256-zNP4aHLW\/rhi6gW72YV8xGy1rLa+RQZtwvWEpiwBSrs=",
       "Microsoft.Extensions.Options.dll": "sha256-oAIlpv09S\/0jXnze744E1V88Oaw8Ql1x3Alw0hsVYdw=",
       "Microsoft.JSInterop.WebAssembly.dll": "sha256-UHHbIPOST1VljxOGBjumdiXVIX1msdTpgJldZgWTemo=",
-      "PlannerApp.Shared.dll": "sha256-RujomeDfsib6rGqv9a3HgJDJFJvxURPgrAK6az2XjZM=",
+      "PlannerApp.Shared.dll": "sha256-nP+HG34qfH0Fy1PCBjcH2Ue\/yR+nDjIQY9TWDlv+\/5E=",
       "AKSoftware.WebApi.dll": "sha256-7JWNVz0\/Dx6CjuIiqs\/zeGmCpfmlWSvTC4XtlejArZA=",
       "Newtonsoft.Json.dll": "sha256-gkIipvi93hhq6PE+WvoKU82xCfBcfl2PTHNjD3enxt4="
     },
     "pdb": {
-      "PlannerApp.Client.pdb": "sha256-KTSGfq0ymz9jLNGsTaYjEU9jKeu+rBTVSe0PnlAz8HI=",
+      "PlannerApp.Client.pdb": "sha256-oPTIUVSOGmE4R5o\/fh3287+cw4cM94ZWJSlQU76Hdmc=",
       "System.Linq.Dynamic.Core.pdb": "sha256-TUdNbGDz+ogqJea4nbn9e5NAJa8g20Wv3as0sLQ8J+o=",
-      "PlannerApp.Shared.pdb": "sha256-RBWc6clrmvZbHHd0mYnoxtkcSg781ak0Y9c9mN\/5VQo="
+      "PlannerApp.Shared.pdb": "sha256-rOKdN8619oE6j8FabY7b3zHA6dGZjDGjrEuGMeol6yY="
     },
     "runtime": {
       "dotnet.3.2.0-preview5.20210.1.js": "sha256-\/uExEU5ECP+u0FDAudLlva53SiNUut4PPcG9xnAVikc=",

@@ -10,11 +10,18 @@
     <div class="col-12">
         <h2>Login to your account</h2>
         <EditForm Model="@loginRequest" OnValidSubmit="LoginUser">
-            <DataAnnotationsValidator />
-            @*<ValidationSummary />*@
-
             <RadzenCard>
                 <AlertMessage Message="@message" MessageType="@messageType" />
+
+                <ul>
+                    @foreach (var item in userInfo)
+                    {
+                        <li><b>@item.Key</b> : @item.Value</li>
+                    }
+                </ul>
+
+                <DataAnnotationsValidator />
+                @*<ValidationSummary />*@
 
                 <label>Email</label>
                 <RadzenTextBox @bind-Value="loginRequest.Email"></RadzenTextBox>
@@ -45,22 +52,24 @@
     string message = string.Empty;
 
     Models.AlertMessageType messageType = Models.AlertMessageType.Success;
+    Dictionary<string, string> userInfo = new Dictionary<string, string>();
 
     public async Task LoginUser()
     {
         isBusy = true;
-        //var result = await authService.RegisterUserAsync(loginRequest);
+        var result = await authService.LoginUserAsync(loginRequest);
 
-        //if (result.IsSuccess)
-        //{
-        //    message = result.Message;
-        //    messageType = Models.AlertMessageType.Success;
-        //}
-        //else
-        //{
-        //    message = result.Errors.FirstOrDefault() ?? result.Message;
-        //    messageType = Models.AlertMessageType.Error;
-        //}
+        if (result.IsSuccess)
+        {
+            message = "Welcome to PlannerApp";
+            userInfo = result.UserInfo;
+            messageType = Models.AlertMessageType.Success;
+        }
+        else
+        {
+            message = result.Errors.FirstOrDefault() ?? result.Message;
+            messageType = Models.AlertMessageType.Error;
+        }
         isBusy = false;
     }
 
