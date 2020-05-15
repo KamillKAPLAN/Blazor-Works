@@ -1,2 +1,4 @@
-01_BlazorLearn/BlazorLearn/bin
-01_BlazorLearn/BlazorLearn/obj
+01_BlazorLearn/.vs/
+02_PlannerApp/.vs/
+02_PlannerApp/PlannerApp.Client/bin/
+02_PlannerApp/PlannerApp.Client/obj/
