@@ -1,4 +1,0 @@
-﻿<StaticWebAssets Version="1.0">
-  <ContentRoot BasePath="/" Path="C:\Users\kamil\Desktop\GitHubWorks\Blazor_Works\02_PlannerApp\PlannerApp.Client\bin\Debug\netstandard2.1\wwwroot\" />
-  <ContentRoot BasePath="_content/Radzen.Blazor" Path="C:\Users\kamil\.nuget\packages\radzen.blazor\2.7.2\build\..\staticwebassets\" />
-</StaticWebAssets>

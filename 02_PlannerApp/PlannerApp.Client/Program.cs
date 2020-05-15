@@ -6,6 +6,7 @@ using System.Text;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using Microsoft.Extensions.DependencyInjection;
 using PlannerApp.Shared.Services;
+using Blazored.LocalStorage;
 
 namespace PlannerApp.Client
 {
@@ -20,11 +21,10 @@ namespace PlannerApp.Client
 
             /* -- */
             builder.Services.AddScoped<AuthenticationService>(s => { return new AuthenticationService(URL); });
+            builder.Services.AddBlazoredLocalStorage();
             /* -- */
 
             builder.Services.AddSingleton(new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
-
-            // builder.Services.AddDevExpressBlazor();
             await builder.Build().RunAsync();
         }
     }

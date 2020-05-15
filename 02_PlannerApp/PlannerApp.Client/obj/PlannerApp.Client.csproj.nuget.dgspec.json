@@ -43,6 +43,10 @@
       "frameworks": {
         "netstandard2.1": {
           "dependencies": {
+            "Blazored.LocalStorage": {
+              "target": "Package",
+              "version": "[2.1.5, )"
+            },
             "Microsoft.AspNetCore.Components.WebAssembly": {
               "target": "Package",
               "version": "[3.2.0-preview4.20210.8, )"

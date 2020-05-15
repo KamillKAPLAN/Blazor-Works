@@ -33,3 +33,24 @@ Razor Kod Örneği (**AuthLayout.razor**):
     
 }
 ```
+
+## Store User Info in Local Storage
+- **PlannerApp.Client/Models/** klasörünün içine LocalUserInfo modeli oluşturuldu
+- `Blazor.LocalStorage` paketi yüklendi
+- **Program.cs** içine `builder.Services.AddBlazoredLocalStorage();` eklendi.
+- **_Imports.razor** dosyasının içine `@using Blazored.LocalStorage` eklendi. 
+- **Login.razor** dosyasının içine aşağıdaki `code`bloğunu yerleştiriyoruz.
+
+```C#
+@inject ILocalStorageService storageService
+@code {
+  var userInfo = new LocalUserInfo()
+  {
+    AccessToken = result.Message,
+    Email = result.UserInfo["Email"],
+    FirstName = result.UserInfo["FirstName"],
+    LastName = result.UserInfo["LastName"],
+    Id = result.UserInfo[System.Security.Claims.ClaimTypes.NameIdentifier],
+  };
+}
+```

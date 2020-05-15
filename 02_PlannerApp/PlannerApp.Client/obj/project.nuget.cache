@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "hINP4GQ4hHPKbHqXWP0ZqjNqaJuh/ggL9zNaGCmgDh227y6uTmOVh6BJwpZiU7jff890ipy4/Eb7pdagXA+REQ==",
+  "dgSpecHash": "JMOxFy5l0MNu2pI22s1gx9m502xa5qPhBz1lcTzoaHZPTuwSwLsuYm7zA03c5chHsgKZc1QPmBrsqcgRLjJDSw==",
   "success": true,
   "projectFilePath": "C:\\Users\\kamil\\Desktop\\GitHubWorks\\Blazor_Works\\02_PlannerApp\\PlannerApp.Client\\PlannerApp.Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kamil\\.nuget\\packages\\aksoftware.webapi\\3.0.1\\aksoftware.webapi.3.0.1.nupkg.sha512",
+    "C:\\Users\\kamil\\.nuget\\packages\\blazored.localstorage\\2.1.5\\blazored.localstorage.2.1.5.nupkg.sha512",
     "C:\\Users\\kamil\\.nuget\\packages\\microsoft.aspnetcore.authorization\\3.1.3\\microsoft.aspnetcore.authorization.3.1.3.nupkg.sha512",
     "C:\\Users\\kamil\\.nuget\\packages\\microsoft.aspnetcore.components\\3.1.3\\microsoft.aspnetcore.components.3.1.3.nupkg.sha512",
     "C:\\Users\\kamil\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\3.1.3\\microsoft.aspnetcore.components.analyzers.3.1.3.nupkg.sha512",
