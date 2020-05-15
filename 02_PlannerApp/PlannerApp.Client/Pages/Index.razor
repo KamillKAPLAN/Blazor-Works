@@ -1,17 +1,20 @@
 ﻿@page "/"
 
-<AuthorizeView>
+@attribute [Authorize]
+
+@*<AuthorizeView>
     <Authorized>
         <h1>Welcome @context.User.FindFirst("FirstName").Value</h1>
     </Authorized>
     <NotAuthorized>
         <h1>Sory you have to login</h1>
     </NotAuthorized>
-</AuthorizeView>
+</AuthorizeView>*@
 
 <div class="row">
     <div class="col-12">
-        <h3>Simple login</h3>
+        <h1>Hello, world!</h1>
+        Welcome to your new app
     </div>
 </div>
 <SurveyPrompt Title="How is Blazor working for you?" />

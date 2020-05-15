@@ -7,6 +7,7 @@ namespace PlannerApp.Shared.Models
 {
     public class LoginRequest
     {
+        /* DataAnnotation */
         [Required]
         [StringLength(50)]
         [EmailAddress]

@@ -7,6 +7,7 @@
 @inject AuthenticationService authService
 @inject NavigationManager navigationManager
 @inject ILocalStorageService storageService
+@inject AuthenticationStateProvider authenticationStateProvider
 
 <div class="row">
     <div class="col-12">
@@ -55,9 +56,6 @@
 
         if (result.IsSuccess)
         {
-            message = "Welcome to PlannerApp";
-            messageType = Models.AlertMessageType.Success;
-
             var userInfo = new LocalUserInfo()
             {
                 Id = result.UserInfo[System.Security.Claims.ClaimTypes.NameIdentifier],
@@ -68,6 +66,9 @@
             };
 
             await storageService.SetItemAsync("User", userInfo);
+            await authenticationStateProvider.GetAuthenticationStateAsync();
+
+            navigationManager.NavigateTo("/");
         }
         else
         {

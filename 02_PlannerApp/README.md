@@ -69,3 +69,20 @@ builder.Services.AddScoped<AuthenticationStateProvider, LocalAuthenticationState
 - **_Imports.razor** içinde `@using Microsoft.AspNetCore.Components.Authorization` tanımlama yapıldı.
 - **App.razor** dosyasında  düzenleme yapıldı.
 - Authentication işlemi **Index.razor** sayfasında uygulandı.
+
+## Notify Auth State & Redirection
+- **Index.razor** dosyasında `@attribute [Authorize]` tanımlaması yapıldı.
+- `@attribute [Authorize]` global olması için **_Import.razor** dosyasında `@using Microsoft.AspNetCore.Authorization`  tanımlaması yapıldı.
+- **Login.razor** dosyasında login olduğunda yönlendirme için `navigationManager.NavigateTo("/");` tanımlaması yapıldı.
+- **LocalAuthenticationStateProvider.cs** dosyasında aşağıdaki kod düzenlemesi yapıldı.
+
+``` C#
+var state = new AuthenticationState(user); ;
+NotifyAuthenticationStateChanged(Task.FromResult(state));
+
+return state;
+```
+- Yapılan düzenlemenin görülebilmesi için **Login.razor** içine `await authenticationStateProvider.GetAuthenticationStateAsync();` düzenlemsi getirildi.
+- Yetkisiz girişlere karşın `RedirectToLogin.razor` dosyası oluşturuldu ve **App.razor** içinde kullanıldı. 
+
+## User & Logout Component
