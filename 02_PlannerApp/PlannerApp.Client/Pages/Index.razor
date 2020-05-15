@@ -1,5 +1,14 @@
 ﻿@page "/"
 
+<AuthorizeView>
+    <Authorized>
+        <h1>Welcome @context.User.FindFirst("FirstName").Value</h1>
+    </Authorized>
+    <NotAuthorized>
+        <h1>Sory you have to login</h1>
+    </NotAuthorized>
+</AuthorizeView>
+
 <div class="row">
     <div class="col-12">
         <h3>Simple login</h3>

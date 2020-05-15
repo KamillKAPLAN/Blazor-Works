@@ -39,6 +39,7 @@ namespace PlannerApp.Client
 
                 return new AuthenticationState(user);
             }
+
             return new AuthenticationState(new ClaimsPrincipal());
         }
     }
