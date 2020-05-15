@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using Microsoft.Extensions.DependencyInjection;
 using PlannerApp.Shared.Services;
 using Blazored.LocalStorage;
+using Microsoft.AspNetCore.Components.Authorization;
 
 namespace PlannerApp.Client
 {
@@ -20,11 +21,18 @@ namespace PlannerApp.Client
             builder.RootComponents.Add<App>("app");
 
             /* -- */
-            builder.Services.AddScoped<AuthenticationService>(s => { return new AuthenticationService(URL); });
+            builder.Services.AddScoped<AuthenticationService>(s =>
+            {
+                return new AuthenticationService(URL);
+            });
+            
             builder.Services.AddBlazoredLocalStorage();
+
+            builder.Services.AddOptions();
+            builder.Services.AddAuthorizationCore();
+            builder.Services.AddScoped<AuthenticationStateProvider, LocalAuthenticationStateProvider>();
             /* -- */
 
-            builder.Services.AddSingleton(new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
             await builder.Build().RunAsync();
         }
     }

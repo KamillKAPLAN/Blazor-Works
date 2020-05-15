@@ -60,11 +60,11 @@
 
             var userInfo = new LocalUserInfo()
             {
-                AccessToken = result.Message,
-                Email = result.UserInfo["Email"],
+                Id = result.UserInfo[System.Security.Claims.ClaimTypes.NameIdentifier],
                 FirstName = result.UserInfo["FirstName"],
                 LastName = result.UserInfo["LastName"],
-                Id = result.UserInfo[System.Security.Claims.ClaimTypes.NameIdentifier],
+                AccessToken = result.Message,
+                Email = result.UserInfo["Email"],
             };
 
             await storageService.SetItemAsync("User", userInfo);

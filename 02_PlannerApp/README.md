@@ -54,3 +54,18 @@ Razor Kod Örneği (**AuthLayout.razor**):
   };
 }
 ```
+
+## Authenticate User In Browser
+- PlannerApp.Client.csproj dosyasında <PropertGroup> içine `<BlazorLinkOnBuild>false</BlazorLinkOnBuild>` eklendi.
+- Paket yüklemek için `NuGet` açıldı ve `Microsoft.AspNetCore.Components.Authoriaztion` paketi yüklendi.
+- `Program.cs` dosyasının içine
+
+``` C#
+builder.Services.AddOptions();
+builder.Services.AddAuthorizationCore();
+builder.Services.AddScoped<AuthenticationStateProvider, LocalAuthenticationStateProvider>();
+```
+- **PlannerApp.Client** içinde LoaclAuthenticatinStateProvider.cs dosyası oluşturuldu.
+- **_Imports.razor** içinde `@using Microsoft.AspNetCore.Components.Authorization` tanımlama yapıldı.
+- **App.razor** dosyasında  düzenleme yapıldı.
+- Authentication işlemi **Index.razor** sayfasında uygulandı.
