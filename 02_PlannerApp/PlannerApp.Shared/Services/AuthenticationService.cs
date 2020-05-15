@@ -29,5 +29,15 @@ namespace PlannerApp.Shared.Services
             var response = await serviceClient.PostAsync<UserManagerResponse>($"{_baseUrl}/api/Auth/Login", request);
             return response.Result;
         }
+
+        /*
+         * Login Users
+         * 
+         * "email": "kamilkaplnn@gmail.com",
+         * "password": "M123l_"
+         * 
+         * "email": "hsynAkin@gmail.com",
+         * "password": "Hsyn123_"
+         */
     }
 }

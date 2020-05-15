@@ -86,3 +86,15 @@ return state;
 - Yetkisiz girişlere karşın `RedirectToLogin.razor` dosyası oluşturuldu ve **App.razor** içinde kullanıldı. 
 
 ## User & Logout Component
+- **LocalAuthenticationStateProvider.cs** dosyasının içinde aşağıdaki metod tanımlandı.
+
+``` C#
+public async Task LogOutAsync()
+{
+   await _storageService.RemoveItemAsync("User");
+   NotifyAuthenticationStateChanged(Task.FromResult(new AuthenticationState(new ClaimsPrincipal())));
+}
+```
+
+- **Shared\UserStatus.razor** dosyası oluşturuldu.
+- **MainLayout.razor** dosyasında `UserStatus` componenti tanımlandı.
