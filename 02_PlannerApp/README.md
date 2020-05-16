@@ -103,3 +103,6 @@ public async Task LogOutAsync()
 - **app.cs** dosyasında `.sidebar` class'ında background düzenlemesi yapıldı. (yapılan değişiklik browser'da görünmüyorsa 'cache' leme olmuştur. Bundan 
        dolayı  `Ctlr + F5` kombinasyonu ile refresh'lememiz gerekmektedir.)
 - ** NavMenu.razor** dosyasında menu düzenlemesine gidildi.
+
+## Creating Plan Models
+-**02_PlannerApp\PlannerApp.Shared\Models** içinde model dosyaları oluşturuldu
