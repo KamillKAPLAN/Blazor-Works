@@ -110,3 +110,8 @@ public async Task LogOutAsync()
 ## Creating Plans Service
 - **PlannerApp.Shared/Services/PlansService.cs** service'i oluşturuldu.
 - **PlannerApp.Client/Program.cs** içinde `PlansService` tanımlama yapıldı.
+
+## Plans Component Get & Show Plans
+- **PlannerApp.Client\Pages\Plans\Plan.razor** dosyası oluşturuldu.
+
+## Plans Component - Paging

@@ -88,20 +88,27 @@ using PlannerApp.Shared.Services;
 #nullable disable
 #nullable restore
 #line 15 "C:\Users\kamil\Desktop\GitHubWorks\Blazor_Works\02_PlannerApp\PlannerApp.Client\_Imports.razor"
-using Blazored.LocalStorage;
+using PlannerApp.Shared.Models;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 16 "C:\Users\kamil\Desktop\GitHubWorks\Blazor_Works\02_PlannerApp\PlannerApp.Client\_Imports.razor"
-using Microsoft.AspNetCore.Components.Authorization;
+using Blazored.LocalStorage;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 17 "C:\Users\kamil\Desktop\GitHubWorks\Blazor_Works\02_PlannerApp\PlannerApp.Client\_Imports.razor"
+using Microsoft.AspNetCore.Components.Authorization;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 18 "C:\Users\kamil\Desktop\GitHubWorks\Blazor_Works\02_PlannerApp\PlannerApp.Client\_Imports.razor"
 using Microsoft.AspNetCore.Authorization;
 
 #line default
