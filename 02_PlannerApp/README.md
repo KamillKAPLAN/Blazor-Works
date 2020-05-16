@@ -116,3 +116,6 @@ public async Task LogOutAsync()
 
 ## Plans Component - Paging
 - **Plans.razor** dosyasında `pagination` işlemi gerçekleştirildi
+
+## Plans Component Search Plans
+- **Plans.razor** dosyasında  `search` işlemi gerçekleştirikdi.
