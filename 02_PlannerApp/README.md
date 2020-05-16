@@ -115,3 +115,4 @@ public async Task LogOutAsync()
 - **PlannerApp.Client\Pages\Plans\Plan.razor** dosyası oluşturuldu.
 
 ## Plans Component - Paging
+- **Plans.razor** dosyasında `pagination` işlemi gerçekleştirildi

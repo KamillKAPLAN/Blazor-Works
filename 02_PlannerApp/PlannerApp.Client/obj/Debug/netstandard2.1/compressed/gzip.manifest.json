@@ -1,7 +1,7 @@
 {
   "FilesToCompress": [
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\1TlpSmCjg78bJiIfUdlR-4eJ9qy1Xb0qHtoFmVKmsmI=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\CnSL6AYGO6OSkdIaQhcYulbVmUpGWyH4XXdKfcakACY=.hash",
       "Source": "C:\\Users\\kamil\\Desktop\\GitHubWorks\\Blazor_Works\\02_PlannerApp\\PlannerApp.Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\PlannerApp.Client.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/PlannerApp.Client.dll.gz"
     },
@@ -321,7 +321,7 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.AspNetCore.Components.Authorization.dll.gz"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\6brEMFmq6N8n2PkEwIJUijFNGH2PQLUOwR9xkpW4BnY=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\-_cLh9P7UefIxP8V8x0rvkvhOVNdYz71F69zkItX-k0=.hash",
       "Source": "C:\\Users\\kamil\\Desktop\\GitHubWorks\\Blazor_Works\\02_PlannerApp\\PlannerApp.Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\PlannerApp.Client.pdb",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/PlannerApp.Client.pdb.gz"
     },
@@ -351,7 +351,7 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.webassembly.js.gz"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\9bYuqV9uOb7PckgivfBTQys8VBkScAkOaCGjnsZ4vwU=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\fwd-Vff3fG1SHn98EGkL1_ZaW6OyFLoM1TMoEWdXm4w=.hash",
       "Source": "C:\\Users\\kamil\\Desktop\\GitHubWorks\\Blazor_Works\\02_PlannerApp\\PlannerApp.Client\\obj\\Debug\\netstandard2.1\\blazor\\blazor.boot.json",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.boot.json.gz"
     }
