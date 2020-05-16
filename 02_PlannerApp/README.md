@@ -106,3 +106,7 @@ public async Task LogOutAsync()
 
 ## Creating Plan Models
 -**02_PlannerApp\PlannerApp.Shared\Models** içinde model dosyaları oluşturuldu
+
+## Creating Plans Service
+- **PlannerApp.Shared/Services/PlansService.cs** service'i oluşturuldu.
+- **PlannerApp.Client/Program.cs** içinde `PlansService` tanımlama yapıldı.
