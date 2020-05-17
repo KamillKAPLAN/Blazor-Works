@@ -104,5 +104,16 @@ namespace PlannerApp.Shared.Services
 
             return response.Result;
         }
+
+        /// <summary>
+        /// Delete plan from the account 
+        /// </summary>
+        /// <param name="id">ID of the plan to be deeleted</param>
+        /// <returns></returns>
+        public async Task<PlanSingleResponse> DeletePlanAsync(string id)
+        {
+            var response = await serviceClient.DeleteProtectedAsync<PlanSingleResponse>($"{_baseUrl}/api/Plans/{id}");
+            return response.Result;
+        }
     }
 }

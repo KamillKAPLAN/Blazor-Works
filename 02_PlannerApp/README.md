@@ -146,3 +146,5 @@ builder.Services.AddFileReaderService(options =>
 - **PlannerApp.Client\Pages\Plans\Plans.razor** dosyasında `Edit` metodunda `Edit.razor` yönlendirme işlemi gerçekleştirildi.
 
 ## Delete Plan - Full
+- **PlannerApp.Shared\Services\Planner.Service.cs** içinde DeletePlanAsync()` metodu yazıldı.
+- **PlannerApp.Client\Pages\Plans\Plans.razor** dosyasında `Delete` düzenlemesi ve `selectPlan()` ve `deletedPlanAsync()` metodları yazıldı.

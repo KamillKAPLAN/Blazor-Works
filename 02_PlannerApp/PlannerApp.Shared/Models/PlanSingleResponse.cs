@@ -4,5 +4,4 @@
     {
         public Plan Record { get; set; }
     }
-
 }
