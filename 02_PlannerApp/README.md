@@ -165,6 +165,6 @@ builder.Services.AddScoped<ToDoItemsService>(s =>
 - **PlannerApp.Client\Pages\Plans\EditPlan.razor** component'inde `#region Items` yazıldı.  
 
 ## To-Do Items Check/Uncheck
-
+- **PlannerApp.Client\Pages\Plans\EditPlan.razor** component'inde düzenlemeler yapıldı.
 
 
