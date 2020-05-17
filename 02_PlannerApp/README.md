@@ -132,5 +132,9 @@ builder.Services.AddFileReaderService(options =>
 });
 ```
 - **_Imports.razor** dosyasında `@using Blazor.FileReader;` tanımlaması yapıldı.
+- **PlannerApp.Client\Pages\Plans\AddPlan.razor** component'i tanımlandı.
 
-## 
+## Add Plan - Choose & Preview File
+- **PlannerApp.Client\Pages\Plans\AddPlan.razor** component'i içinde `@code` bölümü yazıldı.
+
+## Add Plan - Send the Request
