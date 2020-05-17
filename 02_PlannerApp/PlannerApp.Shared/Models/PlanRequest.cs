@@ -8,6 +8,8 @@ namespace PlannerApp.Shared.Models
 {
     public class PlanRequest
     {
+        public string Id { get; set; }
+
         [Required]
         [StringLength(100)]
         public string Title { get; set; }

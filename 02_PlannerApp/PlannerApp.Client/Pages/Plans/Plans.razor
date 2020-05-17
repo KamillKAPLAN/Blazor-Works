@@ -2,6 +2,7 @@
 @page "/plans/{pageNumber:int}"
 
 @inject PlansService plansService
+@inject NavigationManager navigationManager
 
 @attribute [Authorize]
 
@@ -30,20 +31,22 @@ else
     <div class="row">
         @foreach (var plan in plans)
         {
-            <div class="col-3">
+            <div class="col-xs-4 col-sm-12 col-md-12 col-lg-4">
                 <RadzenCard Style="margin: 10px">
                     <img src="@plan.CoverPath" style="height:200px; width:200px; margin:0 auto;" />
                     <h2>@plan.Title</h2>
                     <p>@plan.Description</p>
                     <div class="row">
                         <div class="col-6">
-                            <RadzenButton ButtonStyle="Radzen.ButtonStyle.Success" Text="Edit" class="btn-block" Style="padding: 0 0rem"/>
+                            <RadzenButton ButtonStyle="Radzen.ButtonStyle.Success" Text="Edit" 
+                                          Click='() => navigationManager.NavigateTo($"/plans/details/{plan.Id}")'
+                                          class="btn-block" 
+                                          Style="padding: 0 0rem" />
                         </div>
                         <div class="col-6">
-                            <RadzenButton ButtonStyle="Radzen.ButtonStyle.Danger" Text="Delete" class="btn-block" Style="padding: 0 0rem"/>
-                        </div>
-                        <div class="col-6">
-
+                            <RadzenButton ButtonStyle="Radzen.ButtonStyle.Danger" Text="Delete" 
+                                          class="btn-block" 
+                                          Style="padding: 0 0rem" />
                         </div>
                     </div>
                 </RadzenCard>

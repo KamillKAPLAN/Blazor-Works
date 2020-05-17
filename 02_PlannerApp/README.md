@@ -135,9 +135,14 @@ builder.Services.AddFileReaderService(options =>
 - **PlannerApp.Client\Pages\Plans\AddPlan.razor** component'i tanımlandı.
 
 ## Add Plan - Choose & Preview File
-- **PlannerApp.Client\Pages\Plans\AddPlan.razor** component'i içinde `@code` bölümü içinde tanımlamalar ve `chooseFileAsync()` metodu yazıldı.
+- **PlannerApp.Client\Pages\Plans\AddPlan.razor** component'inde`@code` bölümü içinde tanımlamalar ve `chooseFileAsync()` metodu yazıldı.
 
 ## Add Plan - Send the Request
-- **PlannerApp.Client\Pages\Plans\AddPlan.razor** component'i içinde `@code` bölümü içinde `postPlanAsync()` metodu yazıldı.
+- **PlannerApp.Client\Pages\Plans\AddPlan.razor** component'inde `@code` bölümü içinde `postPlanAsync()` metodu yazıldı.
 
 ## Edit Plan Component - Full
+- **PlannerApp.Shared\Services\Planner.Service.cs** içinde `GetPlanByIdAsync()` ve `PutPlanAsync()` metodları yazıldı.
+- **PlannerApp.Client\Pages\Plans\EditPlan.razor** component'i tanımlandı.
+- **PlannerApp.Client\Pages\Plans\Plans.razor** dosyasında `Edit` metodunda `Edit.razor` yönlendirme işlemi gerçekleştirildi.
+
+## Delete Plan - Full
