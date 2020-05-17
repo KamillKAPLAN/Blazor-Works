@@ -135,6 +135,9 @@ builder.Services.AddFileReaderService(options =>
 - **PlannerApp.Client\Pages\Plans\AddPlan.razor** component'i tanımlandı.
 
 ## Add Plan - Choose & Preview File
-- **PlannerApp.Client\Pages\Plans\AddPlan.razor** component'i içinde `@code` bölümü yazıldı.
+- **PlannerApp.Client\Pages\Plans\AddPlan.razor** component'i içinde `@code` bölümü içinde tanımlamalar ve `chooseFileAsync()` metodu yazıldı.
 
 ## Add Plan - Send the Request
+- **PlannerApp.Client\Pages\Plans\AddPlan.razor** component'i içinde `@code` bölümü içinde `postPlanAsync()` metodu yazıldı.
+
+## Edit Plan Component - Full
