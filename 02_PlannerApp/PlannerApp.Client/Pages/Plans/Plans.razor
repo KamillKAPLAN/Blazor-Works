@@ -2,6 +2,7 @@
 @page "/plans/{pageNumber:int}"
 
 @inject PlansService plansService
+
 @attribute [Authorize]
 
 @if (string.IsNullOrWhiteSpace(Query))
@@ -36,10 +37,10 @@ else
                     <p>@plan.Description</p>
                     <div class="row">
                         <div class="col-6">
-                            <RadzenButton ButtonStyle="Radzen.ButtonStyle.Success" Text="Edit" class="btn-block" />
+                            <RadzenButton ButtonStyle="Radzen.ButtonStyle.Success" Text="Edit" class="btn-block" Style="padding: 0 0rem"/>
                         </div>
                         <div class="col-6">
-                            <RadzenButton ButtonStyle="Radzen.ButtonStyle.Danger" Text="Delete" class="btn-block" />
+                            <RadzenButton ButtonStyle="Radzen.ButtonStyle.Danger" Text="Delete" class="btn-block" Style="padding: 0 0rem"/>
                         </div>
                         <div class="col-6">
 

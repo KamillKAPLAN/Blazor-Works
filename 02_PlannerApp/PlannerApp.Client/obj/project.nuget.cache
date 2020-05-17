@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "fpAFiWj3/0iRa71xdXB9qXL3ZDKBWLW08BJOYNVbPbby0eZJWf06HeCPL5X5KznoP3yDGMm8vXppJ7Cfu2W0WQ==",
+  "dgSpecHash": "XS4CXosg50u3Ze30UNr82+scW0u8FLfKvE104Gmr7hethxVBluXP3lOUFVqSlaH8f1vOix78weyzoLS5FQkv6A==",
   "success": true,
   "projectFilePath": "C:\\Users\\kamil\\Desktop\\GitHubWorks\\Blazor_Works\\02_PlannerApp\\PlannerApp.Client\\PlannerApp.Client.csproj",
   "expectedPackageFiles": [
@@ -38,7 +38,7 @@
     "C:\\Users\\kamil\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\kamil\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\kamil\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
-    "C:\\Users\\kamil\\.nuget\\packages\\radzen.blazor\\2.7.2\\radzen.blazor.2.7.2.nupkg.sha512",
+    "C:\\Users\\kamil\\.nuget\\packages\\radzen.blazor\\2.8.1\\radzen.blazor.2.8.1.nupkg.sha512",
     "C:\\Users\\kamil\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\kamil\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512",
     "C:\\Users\\kamil\\.nuget\\packages\\system.io\\4.3.0\\system.io.4.3.0.nupkg.sha512",
@@ -56,7 +56,8 @@
     "C:\\Users\\kamil\\.nuget\\packages\\system.text.encodings.web\\4.7.1\\system.text.encodings.web.4.7.1.nupkg.sha512",
     "C:\\Users\\kamil\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512",
     "C:\\Users\\kamil\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
-    "C:\\Users\\kamil\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512"
+    "C:\\Users\\kamil\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
+    "C:\\Users\\kamil\\.nuget\\packages\\tewr.blazor.filereader\\1.5.0.20109\\tewr.blazor.filereader.1.5.0.20109.nupkg.sha512"
   ],
   "logs": []
 }

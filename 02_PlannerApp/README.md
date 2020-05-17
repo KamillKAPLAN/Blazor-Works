@@ -60,7 +60,7 @@ Razor Kod Örneği (**AuthLayout.razor**):
 - Paket yüklemek için `NuGet` açıldı ve `Microsoft.AspNetCore.Components.Authoriaztion` paketi yüklendi.
 - `Program.cs` dosyasının içine
 
-``` C#
+```C#
 builder.Services.AddOptions();
 builder.Services.AddAuthorizationCore();
 builder.Services.AddScoped<AuthenticationStateProvider, LocalAuthenticationStateProvider>();
@@ -76,7 +76,7 @@ builder.Services.AddScoped<AuthenticationStateProvider, LocalAuthenticationState
 - **Login.razor** dosyasında login olduğunda yönlendirme için `navigationManager.NavigateTo("/");` tanımlaması yapıldı.
 - **LocalAuthenticationStateProvider.cs** dosyasında aşağıdaki kod düzenlemesi yapıldı.
 
-``` C#
+```C#
 var state = new AuthenticationState(user); ;
 NotifyAuthenticationStateChanged(Task.FromResult(state));
 
@@ -88,7 +88,7 @@ return state;
 ## User & Logout Component
 - **LocalAuthenticationStateProvider.cs** dosyasının içinde aşağıdaki metod tanımlandı.
 
-``` C#
+```C#
 public async Task LogOutAsync()
 {
    await _storageService.RemoveItemAsync("User");
@@ -119,3 +119,18 @@ public async Task LogOutAsync()
 
 ## Plans Component Search Plans
 - **Plans.razor** dosyasında  `search` işlemi gerçekleştirikdi.
+
+## AddPlan Component Init & Design
+- **PlannerApp.Shared\Model\PlanRequest.cs** modeli oluşturuldu.
+- **PlannerApp.Shared\Services\PlansService.cs** içinde `PostPlanAsync` metodu yazıldı.
+- NuGet Package Manager ile `Tewr.Blazor.FileReader` yüklendi. Dosya okumak için yüklendi.
+- **Program.cs** dosyasının içinde `FileReader` tanımlaması yapıldı.
+```C#
+builder.Services.AddFileReaderService(options =>
+{
+   options.UseWasmSharedBuffer = true;
+});
+```
+- **_Imports.razor** dosyasında `@using Blazor.FileReader;` tanımlaması yapıldı.
+
+## 

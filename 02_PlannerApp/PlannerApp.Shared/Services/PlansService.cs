@@ -51,5 +51,19 @@ namespace PlannerApp.Shared.Services
             var response = await serviceClient.GetProtectedAsync<PlansCollectionPagingResponse>($"{_baseUrl}/api/plans/search?query={query}&page={page}");
             return response.Result;
         }
+
+        /// <summary>
+        /// Post a plan to the API
+        /// </summary>
+        /// <param name="model">object represents the plan to be added</param> 
+        /// <returns></returns>
+        public async Task<PlanSingleResponse> PostPlanAsync(PlanRequest model)
+        {
+            var response = await serviceClient.SendFormProtectedAsync<PlanSingleResponse>($"{_baseUrl}/api/Plans", ActionType.POST, 
+                new StringFormKeyValue("Title", model.Title), 
+                new StringFormKeyValue("Description", model.Description), 
+                new FileFormKeyValue("CoverFile", model.CoverFile, model.FileName));
+            return response.Result;
+        }
     }
 }

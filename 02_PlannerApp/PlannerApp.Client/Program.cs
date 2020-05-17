@@ -8,6 +8,7 @@ using Microsoft.Extensions.DependencyInjection;
 using PlannerApp.Shared.Services;
 using Blazored.LocalStorage;
 using Microsoft.AspNetCore.Components.Authorization;
+using Blazor.FileReader;
 
 namespace PlannerApp.Client
 {
@@ -28,6 +29,10 @@ namespace PlannerApp.Client
             builder.Services.AddScoped<PlansService>(s =>
             {
                 return new PlansService(URL);
+            });
+            builder.Services.AddFileReaderService(options =>
+            {
+                options.UseWasmSharedBuffer = true;
             });
 
             builder.Services.AddBlazoredLocalStorage();

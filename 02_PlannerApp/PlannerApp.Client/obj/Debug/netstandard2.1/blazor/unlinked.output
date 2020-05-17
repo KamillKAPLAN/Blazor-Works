@@ -57,6 +57,7 @@ obj\Debug\netstandard2.1\blazor\unlinked\Microsoft.Extensions.FileSystemGlobbing
 obj\Debug\netstandard2.1\blazor\unlinked\Microsoft.Extensions.FileProviders.Abstractions.dll
 obj\Debug\netstandard2.1\blazor\unlinked\Microsoft.Extensions.Logging.dll
 obj\Debug\netstandard2.1\blazor\unlinked\Microsoft.JSInterop.WebAssembly.dll
+obj\Debug\netstandard2.1\blazor\unlinked\Blazor.FileReader.dll
 obj\Debug\netstandard2.1\blazor\unlinked\PlannerApp.Shared.dll
 obj\Debug\netstandard2.1\blazor\unlinked\AKSoftware.WebApi.dll
 obj\Debug\netstandard2.1\blazor\unlinked\Newtonsoft.Json.dll
