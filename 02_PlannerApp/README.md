@@ -148,3 +148,17 @@ builder.Services.AddFileReaderService(options =>
 ## Delete Plan - Full
 - **PlannerApp.Shared\Services\Planner.Service.cs** içinde DeletePlanAsync()` metodu yazıldı.
 - **PlannerApp.Client\Pages\Plans\Plans.razor** dosyasında `Delete` düzenlemesi ve `selectPlan()` ve `deletedPlanAsync()` metodları yazıldı.
+
+## To-Do Items Models & Service
+- **PlannerApp.Shared\Models\ToDoItemRequest.cs** modeli oluşturuldu.
+- **PlannerApp.Shared\Services\PlansService.cs** service'i oluşturuldu ve içinde `CreateItemAsync()`, `EditItemAsync()`, `ChangeItemsStateAsync()` ve `DeleteItemAsync()` metodları yazıldı.
+- **Program.cs** dosyasında `ToDoItemService`  tanımlaması yapıldı.
+
+```C#
+builder.Services.AddScoped<ToDoItemsService>(s =>
+{
+   return new ToDoItemsService(URL);
+});
+```
+
+## To-Do Items - Show & Create
