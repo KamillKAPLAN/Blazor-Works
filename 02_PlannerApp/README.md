@@ -179,3 +179,5 @@ builder.Services.AddScoped<ToDoItemsService>(s =>
   -> Eğer sabit yerde `publish` etmek istiyorsak **`Create Profile`** 'a tıklıyoruz.
   -> Bizi seçli klasör bölümüne atar ve **`Publish`** ile devam diyoruz.
   -> Projemiz'i `Publish` ettikten sonra `C:\Users\userName\Desktop\GitHubWorks\Blazor_Works\02_PlannerApp\PlannerApp.Client\bin\Release\netstandard2.1\publish\wwwroot` adresindeki dosyaları `Server` 'a veya `IIS` 'imize atabiliriz.
+
+## Proje Tamamlandı.
