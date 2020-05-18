@@ -17,6 +17,7 @@
                 <ValidationSummary />
 
                 <RadzenTextBox Placeholder="Title" @bind-Value="model.Title" Style="margin: 10px" />
+                <ValidationMessage For="@(()=> model.Title)" />
                 <Radzen.Blazor.RadzenTextArea Placeholder="Description" @bind-Value="model.Description" Style="margin: 10px; resize: none" />
                 <input type="file" Style="margin: 10px" @ref="inputReference" @onchange="async () => await chooseFileAsync()" />
                 <img style="width: 100%; margin: 10px" src="@imageContent" />

@@ -168,5 +168,14 @@ builder.Services.AddScoped<ToDoItemsService>(s =>
 - **PlannerApp.Client\Pages\Plans\EditPlan.razor** component'inde düzenlemeler yapıldı.
 
 ## To-Do Items - Edit & Delete
-- - **PlannerApp.Client\Pages\Plans\EditPlan.razor** component'inde düzenlemeler yapıldı.
+- **PlannerApp.Client\Pages\Plans\EditPlan.razor** component'inde düzenlemeler yapıldı.
 
+## Deploy to Azure Storage
+- Proje **Publish** edildi. Adımları aşağıda sıralanmıştır.
+  -> Öncelikle proje üzerinde sağ clik yapıyoruz. Ardından **`Publish...`** 'e tıklıyoruz.
+  -> Karşımıza gelen ekranda **`Start`** 'a tıklıyoruz.
+  -> Gelen menüden **`Folder`** 'ı seçiyoruz.
+  -> `Choose a folder` bölümü sabit geliyor, adresi `bin\Release\netstandard2.1\publish\` istersek değiştirebiliriz. 
+  -> Eğer sabit yerde `publish` etmek istiyorsak **`Create Profile`** 'a tıklıyoruz.
+  -> Bizi seçli klasör bölümüne atar ve **`Publish`** ile devam diyoruz.
+  -> Projemiz'i `Publish` ettikten sonra `C:\Users\userName\Desktop\GitHubWorks\Blazor_Works\02_PlannerApp\PlannerApp.Client\bin\Release\netstandard2.1\publish\wwwroot` adresindeki dosyaları `Server` 'a veya `IIS` 'imize atabiliriz.

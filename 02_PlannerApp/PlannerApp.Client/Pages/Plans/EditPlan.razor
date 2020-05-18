@@ -36,12 +36,12 @@
         </EditForm>
     </div>
     <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-
         <h2>Plan's Items</h2>
         <EditForm Model="itemModel" OnSubmit="async () => await submitItemFormAsync()">
             <RadzenCard>
+                <AlertMessage Message="@itemMessage" MessageType="Models.AlertMessageType.Error" />
                 <DataAnnotationsValidator />
-                @*<ValidationSummary />*@
+                <ValidationSummary />
 
                 <table>
                     <tr>
@@ -55,7 +55,6 @@
                         <td>
                             <RadzenTextBox Placeholder="Item Description ..."
                                            @bind-Value="itemModel.Description" />
-                            <ValidationMessage For="@(()=> itemModel.Description)" />
                         </td>
                         <td>
                             <RadzenButton Text="Submit"
@@ -98,6 +97,7 @@
     [Parameter]
     public string Id { get; set; }
 
+    #region Editplan
     PlanRequest model = new PlanRequest();
     System.IO.Stream fileStream = null;
 
@@ -191,9 +191,9 @@
             messageType = Models.AlertMessageType.Error;
         }
 
-
         isBusy = false;
     }
+    #endregion
 
     protected async override Task OnInitializedAsync()
     {
@@ -210,6 +210,7 @@
     ToDoItem selectedItem = null;
 
     ToDoItemRequest itemModel = new ToDoItemRequest();
+    string itemMessage = string.Empty;
 
     // Insert a new item
     async Task insertItemAsync()
@@ -225,6 +226,7 @@
         else
         {
             // TODO : Show error alert
+            itemMessage = result.Message;
             return;
         }
 
@@ -246,6 +248,7 @@
         else
         {
             // TODO : Show error alert
+            itemMessage = result.Message;
             return;
         }
 
@@ -273,6 +276,7 @@
         if (!result.IsSuccess)
         {
             // TODO : show error alert message
+            itemMessage = result.Message;
             return;
         }
 
@@ -286,6 +290,10 @@
         itemModel.Id = item.Id;
         itemModel.Description = item.Description;
         // TODO : Show alert that the item cannot be edited if it's checked
+        if (item.IsDone)
+            itemMessage = "Checked cannot be edited";
+        else
+            itemMessage = null;
     }
 
     // Clear the selected item
@@ -309,6 +317,7 @@
         else
         {
             // Show Alert
+            itemMessage = result.Message;
             return;
         }
 
