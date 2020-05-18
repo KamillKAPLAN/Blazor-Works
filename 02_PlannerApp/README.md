@@ -167,4 +167,6 @@ builder.Services.AddScoped<ToDoItemsService>(s =>
 ## To-Do Items Check/Uncheck
 - **PlannerApp.Client\Pages\Plans\EditPlan.razor** component'inde düzenlemeler yapıldı.
 
+## To-Do Items - Edit & Delete
+- - **PlannerApp.Client\Pages\Plans\EditPlan.razor** component'inde düzenlemeler yapıldı.
 
