@@ -1,4 +1,5 @@
 ﻿@page "/counter"
+@inject IJSRuntime JSRuntime
 
 <h1>Rastgele Toplamlar</h1>
 <p>Blazor'a geçişten önce bu tarafı anlamaya çalışıyorum...</p>
@@ -7,6 +8,7 @@
 
 <button class="btn btn-primary" @onclick="IncrementCount">Click Me</button>
 
+<button class="btn btn-primary" @onclick="CallJSMethod" >Call JS Method</button>
 
 @code {
 
@@ -20,5 +22,10 @@
     {
         incraseValue = random.Next(1, 100); // 1 ile 100 arasında rastgele değer ürettirdik
         currentCount += incraseValue;
+    }
+
+    private async Task CallJSMethod()
+    {
+        await JSRuntime.InvokeVoidAsync("GetStudentName");
     }
 }
