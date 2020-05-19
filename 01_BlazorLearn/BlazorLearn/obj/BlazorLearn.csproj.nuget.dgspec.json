@@ -43,6 +43,10 @@
               "target": "Package",
               "version": "[0.1.0-preview-00002, )"
             },
+            "Blazored.TextEditor": {
+              "target": "Package",
+              "version": "[1.0.3, )"
+            },
             "Microsoft.AspNetCore.Components.WebAssembly": {
               "target": "Package",
               "version": "[3.2.0-preview4.20210.8, )"

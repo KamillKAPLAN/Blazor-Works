@@ -2,6 +2,25 @@
   "version": 3,
   "targets": {
     ".NETStandard,Version=v2.1": {
+      "Blazored.TextEditor/1.0.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components": "3.1.0",
+          "Microsoft.AspNetCore.Components.Web": "3.1.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Blazored.TextEditor.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Blazored.TextEditor.dll": {}
+        },
+        "build": {
+          "buildTransitive/Blazored.TextEditor.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Blazored.TextEditor.props": {}
+        }
+      },
       "BlazorInputFile/0.1.0-preview-00002": {
         "type": "package",
         "dependencies": {
@@ -967,6 +986,24 @@
     }
   },
   "libraries": {
+    "Blazored.TextEditor/1.0.3": {
+      "sha512": "8B2QiqmoGjdvknI++Imq7zcAhyfKCHfiqNYXff7Ilv9iGt+Hu9UkCO5zE1JcQmayFac/I2ddXOikixbmVfW4dg==",
+      "type": "package",
+      "path": "blazored.texteditor/1.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "blazored.texteditor.1.0.3.nupkg.sha512",
+        "blazored.texteditor.nuspec",
+        "build/Blazored.TextEditor.props",
+        "build/Microsoft.AspNetCore.StaticWebAssets.props",
+        "buildMultiTargeting/Blazored.TextEditor.props",
+        "buildTransitive/Blazored.TextEditor.props",
+        "lib/netstandard2.0/Blazored.TextEditor.dll",
+        "staticwebassets/Blazored-BlazorQuill.js",
+        "staticwebassets/quill-blot-formatter.min.js"
+      ]
+    },
     "BlazorInputFile/0.1.0-preview-00002": {
       "sha512": "CEb6oLkSaKn2p2mepAjMIEabIYxsMcX0mRC16ciKPWPJCQMC/FS39C5kDySqdf6BE8/X714SDKc3fj8bI+L9Ig==",
       "type": "package",
@@ -2930,6 +2967,7 @@
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.1": [
       "BlazorInputFile >= 0.1.0-preview-00002",
+      "Blazored.TextEditor >= 1.0.3",
       "Microsoft.AspNetCore.Components.WebAssembly >= 3.2.0-preview4.20210.8",
       "Microsoft.AspNetCore.Components.WebAssembly.Build >= 3.2.0-preview4.20210.8",
       "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 3.2.0-preview4.20210.8",
@@ -2981,6 +3019,10 @@
           "BlazorInputFile": {
             "target": "Package",
             "version": "[0.1.0-preview-00002, )"
+          },
+          "Blazored.TextEditor": {
+            "target": "Package",
+            "version": "[1.0.3, )"
           },
           "Microsoft.AspNetCore.Components.WebAssembly": {
             "target": "Package",

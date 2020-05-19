@@ -77,6 +77,13 @@ using BlazorLearn.Services;
 #line hidden
 #nullable disable
 #nullable restore
+#line 13 "C:\Users\kamil\Desktop\GitHubWorks\Blazor_Works\01_BlazorLearn\BlazorLearn\_Imports.razor"
+using Blazored.TextEditor;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
 #line 2 "C:\Users\kamil\Desktop\GitHubWorks\Blazor_Works\01_BlazorLearn\BlazorLearn\Pages\ProductAdd.razor"
 using BlazorLearn.Models;
 

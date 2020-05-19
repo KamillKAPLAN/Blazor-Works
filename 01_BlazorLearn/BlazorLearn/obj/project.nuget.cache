@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "fA1Q8hrAAj8lPlBI2OLFr2XvlceG68g+vvFNC+OZKRZ10M+XIOjsNM37j+QH7F+a8+XfmKjFbeScCHS3xz7QQA==",
+  "dgSpecHash": "1mljZl/Ri4ski6xGEQu5+1RVGy2ZlOyMNW7DlMnXig60yaAXyBXvsTuh/MAMqHNH5K13kl3gZTEsZvPteOke8g==",
   "success": true,
   "projectFilePath": "C:\\Users\\kamil\\Desktop\\GitHubWorks\\Blazor_Works\\01_BlazorLearn\\BlazorLearn\\BlazorLearn.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\kamil\\.nuget\\packages\\blazored.texteditor\\1.0.3\\blazored.texteditor.1.0.3.nupkg.sha512",
     "C:\\Users\\kamil\\.nuget\\packages\\blazorinputfile\\0.1.0-preview-00002\\blazorinputfile.0.1.0-preview-00002.nupkg.sha512",
     "C:\\Users\\kamil\\.nuget\\packages\\microsoft.aspnetcore.authorization\\3.1.3\\microsoft.aspnetcore.authorization.3.1.3.nupkg.sha512",
     "C:\\Users\\kamil\\.nuget\\packages\\microsoft.aspnetcore.components\\3.1.3\\microsoft.aspnetcore.components.3.1.3.nupkg.sha512",

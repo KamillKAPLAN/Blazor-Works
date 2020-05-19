@@ -1,0 +1,120 @@
+﻿@page "/richtextbox"
+@*Inject JSRuntime to allow JavaScript Interop *@
+@inject IJSRuntime JSRuntime
+@if (EditorEnabled)
+{
+    <br />
+    <button class="btn btn-primary" @onclick="GetText">Get Text</button>
+    <button class="btn btn-primary" @onclick="GetHTML">Get HTML</button>
+    <button class="btn btn-primary" @onclick="GetEditorContent">Get Content</button>
+    <br />
+
+    <br />
+    <div>
+        @EditorContent
+    </div>
+    <div>
+        @((MarkupString)@EditorHTMLContent)
+    </div>
+
+    <br />
+    <button class="btn btn-danger" @onclick="SaveContent">Save Content</button>
+    <button class="btn btn-success" @onclick="LoadContent">Load Saved Content</button>
+    <br />
+
+    <br />
+    <button class="btn btn-info" @onclick="DisableQuillEditor">Disable Editor</button>
+    <br />
+
+    <div id="toolbar">
+        <span class="ql-formats">
+            <select class="ql-font">
+                <option selected=""></option>
+                <option value="serif"></option>
+                <option value="monospace"></option>
+            </select>
+            <select class="ql-size">
+                <option value="small"></option>
+                <option selected=""></option>
+                <option value="large"></option>
+                <option value="huge"></option>
+            </select>
+        </span>
+        <span class="ql-formats">
+            <button class="ql-bold"></button>
+            <button class="ql-italic"></button>
+            <button class="ql-underline"></button>
+            <button class="ql-strike"></button>
+        </span>
+        <span class="ql-formats">
+            <select class="ql-color"></select>
+            <select class="ql-background"></select>
+        </span>
+        <span class="ql-formats">
+            <button class="ql-list" value="ordered"></button>
+            <button class="ql-list" value="bullet"></button>
+            <button class="ql-indent" value="-1"></button>
+            <button class="ql-indent" value="+1"></button>
+            <select class="ql-align">
+                <option selected=""></option>
+                <option value="center"></option>
+                <option value="right"></option>
+                <option value="justify"></option>
+            </select>
+        </span>
+        <span class="ql-formats">
+            <button class="ql-link"></button>
+        </span>
+    </div>
+}
+<div @ref="@divEditorElement" />
+@code {
+    private string strSavedContent = "";
+    private ElementReference divEditorElement;
+    private string EditorContent;
+    private string EditorHTMLContent;
+    private bool EditorEnabled = true;
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await JSRuntime.InvokeAsync<string>(
+                "QuillFunctions.createQuill", divEditorElement);
+        }
+    }
+    async Task GetText()
+    {
+        EditorHTMLContent = "";
+        EditorContent = await JSRuntime.InvokeAsync<string>(
+            "QuillFunctions.getQuillText", divEditorElement);
+    }
+    async Task GetHTML()
+    {
+        EditorContent = "";
+        EditorHTMLContent = await JSRuntime.InvokeAsync<string>(
+            "QuillFunctions.getQuillHTML", divEditorElement);
+    }
+    async Task GetEditorContent()
+    {
+        EditorHTMLContent = "";
+        EditorContent = await JSRuntime.InvokeAsync<string>(
+            "QuillFunctions.getQuillContent", divEditorElement);
+    }
+
+    async Task SaveContent()
+    {
+        strSavedContent = await JSRuntime.InvokeAsync<string>(
+            "QuillFunctions.getQuillContent", divEditorElement);
+    }
+    async Task LoadContent()
+    {
+        var QuillDelta = await JSRuntime.InvokeAsync<object>(
+            "QuillFunctions.loadQuillContent", divEditorElement, strSavedContent);
+    }
+    async Task DisableQuillEditor()
+    {
+        EditorEnabled = false;
+        await JSRuntime.InvokeAsync<object>(
+            "QuillFunctions.disableQuillEditor", divEditorElement);
+    }
+}
