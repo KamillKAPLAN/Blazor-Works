@@ -39,6 +39,10 @@
       "frameworks": {
         "netstandard2.1": {
           "dependencies": {
+            "BlazorInputFile": {
+              "target": "Package",
+              "version": "[0.1.0-preview-00002, )"
+            },
             "Microsoft.AspNetCore.Components.WebAssembly": {
               "target": "Package",
               "version": "[3.2.0-preview4.20210.8, )"

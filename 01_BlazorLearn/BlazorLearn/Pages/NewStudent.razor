@@ -1,0 +1,40 @@
+﻿@page "/newstudent"
+
+<h1>Student Form</h1>
+<EditForm Model="student" OnValidSubmit="@Save">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+    <div class="row">
+        <div class="col-md-2">
+            <label>Name : </label>
+        </div>
+        <div class="col-md-4">
+            <InputText class="form-control" @bind-Value="student.Name" placeholder="Type student name" />
+            <ValidationMessage For="(()=>student.Name)" />
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-2">
+            <label>Roll : </label>
+        </div>
+        <div class="col-md-4">
+            <InputText class="form-control" @bind-Value="student.Roll" placeholder="Type student roll" />
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-2">
+        </div>
+        <div class="col-md-4">
+            <input type="submit" class="btn btn-primary" value="Save" /> <br /><br />
+        </div>
+    </div>
+</EditForm>
+
+@code {
+    StudentModel student = new StudentModel();
+
+    private void Save()
+    {
+       // 
+    }
+}

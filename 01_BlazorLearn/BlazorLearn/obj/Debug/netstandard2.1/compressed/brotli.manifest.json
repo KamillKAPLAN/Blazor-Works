@@ -131,7 +131,7 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/zh-Hant\/Microsoft.CodeAnalysis.CSharp.resources.dll.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\-p51zKhPUeZGSAidAuojF2c4ch-P8jM3N4KlrMT0hYI=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\Eag7WqypyGEMnwSEmChYTiVMVpYc6LricDy-m6Xos94=.hash",
       "Source": "C:\\Users\\kamil\\Desktop\\GitHubWorks\\Blazor_Works\\01_BlazorLearn\\BlazorLearn\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\BlazorLearn.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/BlazorLearn.dll.br"
     },
@@ -391,7 +391,7 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.JSInterop.WebAssembly.dll.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\6z6zD1v2u7lpmnnobpxVVnyeSuVldgJqkzDkchVHXAo=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\oyPx98mOHdrTfXbYRddUARb8fzXWUxDk7_HlfW3Br3Q=.hash",
       "Source": "C:\\Users\\kamil\\Desktop\\GitHubWorks\\Blazor_Works\\01_BlazorLearn\\BlazorLearn\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\BlazorLearn.pdb",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/BlazorLearn.pdb.br"
     },
@@ -411,7 +411,7 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.webassembly.js.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\kqK78tccf-0XAVQK1Ebqu43dYSACEFIp7dvaDr5vraA=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\1VdBz1GJ8Nk7nyrTIiHl4DysFdH1V0SCokrl6i1UfdY=.hash",
       "Source": "C:\\Users\\kamil\\Desktop\\GitHubWorks\\Blazor_Works\\01_BlazorLearn\\BlazorLearn\\obj\\Debug\\netstandard2.1\\blazor\\blazor.boot.json",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.boot.json.br"
     }

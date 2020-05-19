@@ -15,6 +15,7 @@
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <Import Project="$(NuGetPackageRoot)microsoft.aspnetcore.components.webassembly.runtime\3.2.0-preview5.20210.1\build\netstandard1.0\Microsoft.AspNetCore.Components.WebAssembly.Runtime.props" Condition="Exists('$(NuGetPackageRoot)microsoft.aspnetcore.components.webassembly.runtime\3.2.0-preview5.20210.1\build\netstandard1.0\Microsoft.AspNetCore.Components.WebAssembly.Runtime.props')" />
     <Import Project="$(NuGetPackageRoot)microsoft.aspnetcore.components.webassembly.build\3.2.0-preview4.20210.8\build\netstandard1.0\Microsoft.AspNetCore.Components.WebAssembly.Build.props" Condition="Exists('$(NuGetPackageRoot)microsoft.aspnetcore.components.webassembly.build\3.2.0-preview4.20210.8\build\netstandard1.0\Microsoft.AspNetCore.Components.WebAssembly.Build.props')" />
+    <Import Project="$(NuGetPackageRoot)blazorinputfile\0.1.0-preview-00002\buildTransitive\BlazorInputFile.props" Condition="Exists('$(NuGetPackageRoot)blazorinputfile\0.1.0-preview-00002\buildTransitive\BlazorInputFile.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <PkgMicrosoft_CodeAnalysis_Analyzers Condition=" '$(PkgMicrosoft_CodeAnalysis_Analyzers)' == '' ">C:\Users\kamil\.nuget\packages\microsoft.codeanalysis.analyzers\2.9.3</PkgMicrosoft_CodeAnalysis_Analyzers>

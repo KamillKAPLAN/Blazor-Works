@@ -70,6 +70,13 @@ using BlazorLearn.Shared;
 #line hidden
 #nullable disable
 #nullable restore
+#line 10 "C:\Users\kamil\Desktop\GitHubWorks\Blazor_Works\01_BlazorLearn\BlazorLearn\_Imports.razor"
+using BlazorLearn.Services;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
 #line 2 "C:\Users\kamil\Desktop\GitHubWorks\Blazor_Works\01_BlazorLearn\BlazorLearn\Pages\Validation.razor"
 using BlazorLearn.Models;
 

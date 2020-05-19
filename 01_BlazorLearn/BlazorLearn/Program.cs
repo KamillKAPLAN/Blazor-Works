@@ -20,6 +20,7 @@ namespace BlazorLearn
 
             /* Dependency Injection IOS Begin */
             builder.Services.AddSingleton<IApiService, JsonPlacerHolderApi>();
+            builder.Services.AddSingleton<StudentService>();
             /* Dependency Injection IOS End */
 
             /* 
