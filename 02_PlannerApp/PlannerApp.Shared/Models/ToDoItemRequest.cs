@@ -6,7 +6,7 @@ namespace PlannerApp.Shared.Models
     {
         public string Id { get; set; }
 
-        [Required]
+        [Required (ErrorMessage = "Description zordunludur...")]
         [StringLength(200)]
         public string Description { get; set; }
 

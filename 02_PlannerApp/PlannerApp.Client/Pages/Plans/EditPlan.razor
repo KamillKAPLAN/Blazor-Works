@@ -37,7 +37,7 @@
     </div>
     <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
         <h2>Plan's Items</h2>
-        <EditForm Model="itemModel" OnSubmit="async () => await submitItemFormAsync()">
+        <EditForm Model="itemModel" OnValidSubmit="async () => await submitItemFormAsync()">
             <RadzenCard>
                 <AlertMessage Message="@itemMessage" MessageType="Models.AlertMessageType.Error" />
                 <DataAnnotationsValidator />
@@ -55,6 +55,7 @@
                         <td>
                             <RadzenTextBox Placeholder="Item Description ..."
                                            @bind-Value="itemModel.Description" />
+                            <ValidationMessage For="(() => itemModel.Description)" />
                         </td>
                         <td>
                             <RadzenButton Text="Submit"
