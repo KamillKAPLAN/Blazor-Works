@@ -90,6 +90,27 @@ using Blazored.TextEditor;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 14 "C:\Users\kamil\Desktop\GitHubWorks\Blazor_Works\01_BlazorLearn\BlazorLearn\_Imports.razor"
+using Blazored.Toast;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 15 "C:\Users\kamil\Desktop\GitHubWorks\Blazor_Works\01_BlazorLearn\BlazorLearn\_Imports.razor"
+using Blazored.Toast.Services;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 16 "C:\Users\kamil\Desktop\GitHubWorks\Blazor_Works\01_BlazorLearn\BlazorLearn\_Imports.razor"
+using Blazored.Toast.Configuration;
+
+#line default
+#line hidden
+#nullable disable
     public partial class MainLayout2 : LayoutComponentBase
     {
         #pragma warning disable 1998

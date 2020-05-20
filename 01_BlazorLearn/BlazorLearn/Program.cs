@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using Microsoft.Extensions.DependencyInjection;
 using BlazorLearn.Services;
 using Blazored.LocalStorage;
+using Blazored.Toast;
 
 namespace BlazorLearn
 {
@@ -27,6 +28,10 @@ namespace BlazorLearn
              * LocalStorage Eklenmesi 
              */
             builder.Services.AddBlazoredLocalStorage();
+            /*
+             * Toast Eklenmesi 
+             */
+            builder.Services.AddBlazoredToast();
 
             /* 
              * AddSingleton() : bu client için bir nesne oluþturuyor ve tamamen client uygulama boyunca onu kullanýyor. Ayný 

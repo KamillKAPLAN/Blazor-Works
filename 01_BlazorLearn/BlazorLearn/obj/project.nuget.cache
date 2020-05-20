@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "GZicudTKEE/HJW1kXktWR78Unhv1Q/jEwnU8nPyhlqc/JJoPbHrnHAqt+NkmdGWUKZKRwGiXsgWWAQgKJkyplA==",
+  "dgSpecHash": "qpEgAPUKqXrUGeKarbpoMsP5eH+irxfmH/s7mKsOwu340pBjD+QxQDMJp97qJ4U7JRUJk2LHqov+qbMIVL0vPQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\kamil\\Desktop\\GitHubWorks\\Blazor_Works\\01_BlazorLearn\\BlazorLearn\\BlazorLearn.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kamil\\.nuget\\packages\\blazored.localstorage\\2.1.5\\blazored.localstorage.2.1.5.nupkg.sha512",
     "C:\\Users\\kamil\\.nuget\\packages\\blazored.texteditor\\1.0.3\\blazored.texteditor.1.0.3.nupkg.sha512",
+    "C:\\Users\\kamil\\.nuget\\packages\\blazored.toast\\3.1.1\\blazored.toast.3.1.1.nupkg.sha512",
     "C:\\Users\\kamil\\.nuget\\packages\\blazorinputfile\\0.2.0\\blazorinputfile.0.2.0.nupkg.sha512",
     "C:\\Users\\kamil\\.nuget\\packages\\microsoft.aspnetcore.authorization\\3.1.3\\microsoft.aspnetcore.authorization.3.1.3.nupkg.sha512",
     "C:\\Users\\kamil\\.nuget\\packages\\microsoft.aspnetcore.components\\3.1.3\\microsoft.aspnetcore.components.3.1.3.nupkg.sha512",

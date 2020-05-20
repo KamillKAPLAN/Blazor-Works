@@ -12,10 +12,20 @@
   <PropertyGroup>
     <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
   </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Content Include="$(NuGetPackageRoot)blazored.toast\3.1.1\contentFiles\any\netstandard2.0\bundleconfig.json" Condition="Exists('$(NuGetPackageRoot)blazored.toast\3.1.1\contentFiles\any\netstandard2.0\bundleconfig.json')">
+      <NuGetPackageId>Blazored.Toast</NuGetPackageId>
+      <NuGetPackageVersion>3.1.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>bundleconfig.json</Link>
+    </Content>
+  </ItemGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <Import Project="$(NuGetPackageRoot)microsoft.aspnetcore.components.webassembly.runtime\3.2.0-preview5.20210.1\build\netstandard1.0\Microsoft.AspNetCore.Components.WebAssembly.Runtime.props" Condition="Exists('$(NuGetPackageRoot)microsoft.aspnetcore.components.webassembly.runtime\3.2.0-preview5.20210.1\build\netstandard1.0\Microsoft.AspNetCore.Components.WebAssembly.Runtime.props')" />
     <Import Project="$(NuGetPackageRoot)microsoft.aspnetcore.components.webassembly.build\3.2.0-preview4.20210.8\build\netstandard1.0\Microsoft.AspNetCore.Components.WebAssembly.Build.props" Condition="Exists('$(NuGetPackageRoot)microsoft.aspnetcore.components.webassembly.build\3.2.0-preview4.20210.8\build\netstandard1.0\Microsoft.AspNetCore.Components.WebAssembly.Build.props')" />
     <Import Project="$(NuGetPackageRoot)blazorinputfile\0.2.0\buildTransitive\BlazorInputFile.props" Condition="Exists('$(NuGetPackageRoot)blazorinputfile\0.2.0\buildTransitive\BlazorInputFile.props')" />
+    <Import Project="$(NuGetPackageRoot)blazored.toast\3.1.1\buildTransitive\Blazored.Toast.props" Condition="Exists('$(NuGetPackageRoot)blazored.toast\3.1.1\buildTransitive\Blazored.Toast.props')" />
     <Import Project="$(NuGetPackageRoot)blazored.texteditor\1.0.3\buildTransitive\Blazored.TextEditor.props" Condition="Exists('$(NuGetPackageRoot)blazored.texteditor\1.0.3\buildTransitive\Blazored.TextEditor.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">

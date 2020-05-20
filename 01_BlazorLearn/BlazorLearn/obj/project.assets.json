@@ -34,6 +34,33 @@
           "buildMultiTargeting/Blazored.TextEditor.props": {}
         }
       },
+      "Blazored.Toast/3.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components": "3.1.1",
+          "Microsoft.AspNetCore.Components.Web": "3.1.1",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Blazored.Toast.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Blazored.Toast.dll": {}
+        },
+        "contentFiles": {
+          "contentFiles/any/netstandard2.0/bundleconfig.json": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        },
+        "build": {
+          "buildTransitive/Blazored.Toast.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Blazored.Toast.props": {}
+        }
+      },
       "BlazorInputFile/0.2.0": {
         "type": "package",
         "dependencies": {
@@ -1027,6 +1054,26 @@
         "lib/netstandard2.0/Blazored.TextEditor.dll",
         "staticwebassets/Blazored-BlazorQuill.js",
         "staticwebassets/quill-blot-formatter.min.js"
+      ]
+    },
+    "Blazored.Toast/3.1.1": {
+      "sha512": "3PloDlZctJKgmFLeyrSyQej2hFf8hFREPav6mNx2n31Vlf30Ygms2df19D6KaYcye+vjf7Y8bUq5kUxPd+htog==",
+      "type": "package",
+      "path": "blazored.toast/3.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "blazored.toast.3.1.1.nupkg.sha512",
+        "blazored.toast.nuspec",
+        "build/Blazored.Toast.props",
+        "build/Microsoft.AspNetCore.StaticWebAssets.props",
+        "buildMultiTargeting/Blazored.Toast.props",
+        "buildTransitive/Blazored.Toast.props",
+        "content/bundleconfig.json",
+        "contentFiles/any/netstandard2.0/bundleconfig.json",
+        "lib/netstandard2.0/Blazored.Toast.dll",
+        "staticwebassets/blazored-toast.css",
+        "staticwebassets/blazored-toast.min.css"
       ]
     },
     "BlazorInputFile/0.2.0": {
@@ -2994,6 +3041,7 @@
       "BlazorInputFile >= 0.2.0",
       "Blazored.LocalStorage >= 2.1.5",
       "Blazored.TextEditor >= 1.0.3",
+      "Blazored.Toast >= 3.1.1",
       "Microsoft.AspNetCore.Components.WebAssembly >= 3.2.0-preview4.20210.8",
       "Microsoft.AspNetCore.Components.WebAssembly.Build >= 3.2.0-preview4.20210.8",
       "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 3.2.0-preview4.20210.8",
@@ -3053,6 +3101,10 @@
           "Blazored.TextEditor": {
             "target": "Package",
             "version": "[1.0.3, )"
+          },
+          "Blazored.Toast": {
+            "target": "Package",
+            "version": "[3.1.1, )"
           },
           "Microsoft.AspNetCore.Components.WebAssembly": {
             "target": "Package",
