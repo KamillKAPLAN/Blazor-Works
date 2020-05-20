@@ -1,0 +1,39 @@
+﻿@page "/localstorage"
+@inject Blazored.LocalStorage.ILocalStorageService oLocalService
+
+<h3>LocalStorage</h3>
+
+<input type="text" @bind="SessionValue" class="form-control"/>
+
+<br />
+
+<button class="btn btn-success" @onclick="SaveSession">Session Save</button>
+<button class="btn btn-danger" @onclick="RemoveSession">Session Save</button>
+
+<br />
+<br />
+
+<span style="color: #c00"> @Message </span>
+
+@code { 
+    string SessionValue = "";
+    string Message = "";
+
+    protected override async Task OnInitializedAsync()
+    {
+        SessionValue = await oLocalService.GetItemAsync<string>("mySession");
+    }
+
+    public async void SaveSession()
+    {
+        Message = "Session Saved";
+        await oLocalService.SetItemAsync("mySession", SessionValue);
+    }
+
+    public async void RemoveSession()
+    {
+        Message = "Session Removed";
+        SessionValue = "";
+        await oLocalService.RemoveItemAsync("mySession");
+    }
+}

@@ -2,6 +2,19 @@
   "version": 3,
   "targets": {
     ".NETStandard,Version=v2.1": {
+      "Blazored.LocalStorage/2.1.5": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components": "3.1.2",
+          "Microsoft.AspNetCore.Components.Web": "3.1.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Blazored.LocalStorage.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Blazored.LocalStorage.dll": {}
+        }
+      },
       "Blazored.TextEditor/1.0.3": {
         "type": "package",
         "dependencies": {
@@ -21,11 +34,11 @@
           "buildMultiTargeting/Blazored.TextEditor.props": {}
         }
       },
-      "BlazorInputFile/0.1.0-preview-00002": {
+      "BlazorInputFile/0.2.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.Components": "3.0.0-preview9.19424.4",
-          "Microsoft.AspNetCore.Components.Web": "3.0.0-preview9.19424.4"
+          "Microsoft.AspNetCore.Components": "3.1.0-preview3.19555.2",
+          "Microsoft.AspNetCore.Components.Web": "3.1.0-preview3.19555.2"
         },
         "compile": {
           "lib/netstandard2.1/BlazorInputFile.dll": {}
@@ -529,10 +542,10 @@
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.Json.dll": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection/3.1.3": {
+      "Microsoft.Extensions.DependencyInjection/3.1.4": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.3"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.4"
         },
         "compile": {
           "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.dll": {}
@@ -541,7 +554,7 @@
           "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.dll": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.3": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.4": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
@@ -795,7 +808,7 @@
           "lib/netstandard2.0/System.Memory.dll": {}
         }
       },
-      "System.Net.Http.Json/3.2.0-preview5.20210.3": {
+      "System.Net.Http.Json/3.2.0": {
         "type": "package",
         "dependencies": {
           "System.Buffers": "4.5.0",
@@ -986,6 +999,18 @@
     }
   },
   "libraries": {
+    "Blazored.LocalStorage/2.1.5": {
+      "sha512": "/gqhAXbGOwgom2R/oh4YCh2QOR6Sf0JIHBvNShWiSfvaFjJYCGJgM4onj/Upt/a8q9SBdq4R0zglNH9MM7nqlQ==",
+      "type": "package",
+      "path": "blazored.localstorage/2.1.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "blazored.localstorage.2.1.5.nupkg.sha512",
+        "blazored.localstorage.nuspec",
+        "lib/netstandard2.0/Blazored.LocalStorage.dll"
+      ]
+    },
     "Blazored.TextEditor/1.0.3": {
       "sha512": "8B2QiqmoGjdvknI++Imq7zcAhyfKCHfiqNYXff7Ilv9iGt+Hu9UkCO5zE1JcQmayFac/I2ddXOikixbmVfW4dg==",
       "type": "package",
@@ -1004,14 +1029,14 @@
         "staticwebassets/quill-blot-formatter.min.js"
       ]
     },
-    "BlazorInputFile/0.1.0-preview-00002": {
-      "sha512": "CEb6oLkSaKn2p2mepAjMIEabIYxsMcX0mRC16ciKPWPJCQMC/FS39C5kDySqdf6BE8/X714SDKc3fj8bI+L9Ig==",
+    "BlazorInputFile/0.2.0": {
+      "sha512": "wsPTwoA9fkHOxjEh0W0brNeTaVBaMCFwfBLehbRhfW+RzlIrYtlJ5qFpT5f377Ej6ELk+xeoUrkDBx9c8JF7DQ==",
       "type": "package",
-      "path": "blazorinputfile/0.1.0-preview-00002",
+      "path": "blazorinputfile/0.2.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "blazorinputfile.0.1.0-preview-00002.nupkg.sha512",
+        "blazorinputfile.0.2.0.nupkg.sha512",
         "blazorinputfile.nuspec",
         "build/BlazorInputFile.props",
         "build/Microsoft.AspNetCore.StaticWebAssets.props",
@@ -1794,10 +1819,10 @@
         "microsoft.extensions.configuration.json.nuspec"
       ]
     },
-    "Microsoft.Extensions.DependencyInjection/3.1.3": {
-      "sha512": "H/d/jt4Pdp2iYx28shLkxfgQpk9S7cCCTEjtS/61PbZcFAT/mc4cemmOlBdED7+CqmEAIDg8X4Fo0KtADaNizg==",
+    "Microsoft.Extensions.DependencyInjection/3.1.4": {
+      "sha512": "dAWhz6BEjUFIVLUPbT1s1sUrPTwbUWdw2iBRRe3ej3xXcKS+oo64dKrIWFxRjYP6TWyESpGFNY5NGeA5FcHVlg==",
       "type": "package",
-      "path": "microsoft.extensions.dependencyinjection/3.1.3",
+      "path": "microsoft.extensions.dependencyinjection/3.1.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1810,21 +1835,21 @@
         "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.xml",
         "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.dll",
         "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.xml",
-        "microsoft.extensions.dependencyinjection.3.1.3.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.3.1.4.nupkg.sha512",
         "microsoft.extensions.dependencyinjection.nuspec"
       ]
     },
-    "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.3": {
-      "sha512": "woeS5XeBChU76EmtFCwGHKgBfsYIn76u3myDq4zNY2ZrcwzBMNEViK2FRgXDgF11PBNbGdKCXsWFFZDtqPW0nQ==",
+    "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.4": {
+      "sha512": "AceHamXNKDMDwIoZqEoApLp8s3935wSC3VXrPaRWa0wWOaEcYdDlo1nWQ1zLiezoDmpJzV7FqDm53E0Ty/hEMg==",
       "type": "package",
-      "path": "microsoft.extensions.dependencyinjection.abstractions/3.1.3",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/3.1.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
-        "microsoft.extensions.dependencyinjection.abstractions.3.1.3.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.3.1.4.nupkg.sha512",
         "microsoft.extensions.dependencyinjection.abstractions.nuspec"
       ]
     },
@@ -2316,10 +2341,10 @@
         "version.txt"
       ]
     },
-    "System.Net.Http.Json/3.2.0-preview5.20210.3": {
-      "sha512": "l2zb7rnO7DNuGWTqoTg2aRtWct8gbOs1o2amt5llj7Bat3pkCLJEu6+MwTqc40jEP6b+YB8Dnp1ig2wzZYVOvA==",
+    "System.Net.Http.Json/3.2.0": {
+      "sha512": "6VUCQKGS9A0RGkIIfLpvAbBOQdTgsffQJ0OOanEMuCC/couJtjRhK65/3kE97IYi6z5kvXYvQW4buZ2rH5zsDA==",
       "type": "package",
-      "path": "system.net.http.json/3.2.0-preview5.20210.3",
+      "path": "system.net.http.json/3.2.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2330,7 +2355,7 @@
         "lib/net461/System.Net.Http.Json.xml",
         "lib/netstandard2.0/System.Net.Http.Json.dll",
         "lib/netstandard2.0/System.Net.Http.Json.xml",
-        "system.net.http.json.3.2.0-preview5.20210.3.nupkg.sha512",
+        "system.net.http.json.3.2.0.nupkg.sha512",
         "system.net.http.json.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
@@ -2966,16 +2991,17 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.1": [
-      "BlazorInputFile >= 0.1.0-preview-00002",
+      "BlazorInputFile >= 0.2.0",
+      "Blazored.LocalStorage >= 2.1.5",
       "Blazored.TextEditor >= 1.0.3",
       "Microsoft.AspNetCore.Components.WebAssembly >= 3.2.0-preview4.20210.8",
       "Microsoft.AspNetCore.Components.WebAssembly.Build >= 3.2.0-preview4.20210.8",
       "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 3.2.0-preview4.20210.8",
       "Microsoft.AspNetCore.Hosting >= 2.2.7",
       "Microsoft.AspNetCore.HttpsPolicy >= 2.2.0",
-      "Microsoft.Extensions.DependencyInjection >= 3.1.3",
+      "Microsoft.Extensions.DependencyInjection >= 3.1.4",
       "RazorComponentsPreview >= 0.6.0",
-      "System.Net.Http.Json >= 3.2.0-preview5.20210.3"
+      "System.Net.Http.Json >= 3.2.0"
     ]
   },
   "packageFolders": {
@@ -3018,7 +3044,11 @@
         "dependencies": {
           "BlazorInputFile": {
             "target": "Package",
-            "version": "[0.1.0-preview-00002, )"
+            "version": "[0.2.0, )"
+          },
+          "Blazored.LocalStorage": {
+            "target": "Package",
+            "version": "[2.1.5, )"
           },
           "Blazored.TextEditor": {
             "target": "Package",
@@ -3048,7 +3078,7 @@
           },
           "Microsoft.Extensions.DependencyInjection": {
             "target": "Package",
-            "version": "[3.1.3, )"
+            "version": "[3.1.4, )"
           },
           "RazorComponentsPreview": {
             "target": "Package",
@@ -3056,7 +3086,7 @@
           },
           "System.Net.Http.Json": {
             "target": "Package",
-            "version": "[3.2.0-preview5.20210.3, )"
+            "version": "[3.2.0, )"
           }
         },
         "imports": [

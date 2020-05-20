@@ -6,6 +6,7 @@ using System.Text;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using Microsoft.Extensions.DependencyInjection;
 using BlazorLearn.Services;
+using Blazored.LocalStorage;
 
 namespace BlazorLearn
 {
@@ -21,6 +22,11 @@ namespace BlazorLearn
             /* Dependency Injection IOS Begin */
             builder.Services.AddSingleton<IApiService, JsonPlacerHolderApi>();
             /* Dependency Injection IOS End */
+
+            /*
+             * LocalStorage Eklenmesi 
+             */
+            builder.Services.AddBlazoredLocalStorage();
 
             /* 
              * AddSingleton() : bu client için bir nesne oluþturuyor ve tamamen client uygulama boyunca onu kullanýyor. Ayný 

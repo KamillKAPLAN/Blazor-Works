@@ -131,12 +131,12 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/zh-Hant\/Microsoft.CodeAnalysis.CSharp.resources.dll.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\6ZK33bFEqNBO5uuPB1XFuZUBLIU7OFFi0hGK3yo33Mw=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\zVGpJiB2nEsJtF2YBI4xpPgiab5KpQ38voZrakHADh8=.hash",
       "Source": "C:\\Users\\kamil\\Desktop\\GitHubWorks\\Blazor_Works\\01_BlazorLearn\\BlazorLearn\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\BlazorLearn.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/BlazorLearn.dll.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\ycn-UHLnjC77BNvsurP4mkuYP8oud1oVyfSSlZKMymc=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\o_nIDOlv_7C51lX5qskB167ESJHrLYQiPQU9lsq7bOk=.hash",
       "Source": "C:\\Users\\kamil\\Desktop\\GitHubWorks\\Blazor_Works\\01_BlazorLearn\\BlazorLearn\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.Extensions.DependencyInjection.Abstractions.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.DependencyInjection.Abstractions.dll.br"
     },
@@ -251,7 +251,7 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Data.dll.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\mfk4mGJNEuOK1ya6HNucfAmophVZxc_JZZGUjS6Ch2g=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\99dseBOagY3mzu5Y8Eqm8gRI_o8QbbCp7R2Ew9bQ_5E=.hash",
       "Source": "C:\\Users\\kamil\\Desktop\\GitHubWorks\\Blazor_Works\\01_BlazorLearn\\BlazorLearn\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.Net.Http.Json.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Net.Http.Json.dll.br"
     },
@@ -301,6 +301,16 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.ComponentModel.DataAnnotations.dll.br"
     },
     {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\fWwjvztyZqVR47Lr3GGvh2S5TrD635IoiUP2hUI4AVg=.hash",
+      "Source": "C:\\Users\\kamil\\Desktop\\GitHubWorks\\Blazor_Works\\01_BlazorLearn\\BlazorLearn\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Blazored.LocalStorage.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Blazored.LocalStorage.dll.br"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\K3dpli228kQQ75WVqoiIdmn8u8q8gZHixcWDdCHCRgU=.hash",
+      "Source": "C:\\Users\\kamil\\Desktop\\GitHubWorks\\Blazor_Works\\01_BlazorLearn\\BlazorLearn\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.JSInterop.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.JSInterop.dll.br"
+    },
+    {
       "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\v4LhihP26fP-dVajppSCZIrCVbkiALCJgAisyG2cmJQ=.hash",
       "Source": "C:\\Users\\kamil\\Desktop\\GitHubWorks\\Blazor_Works\\01_BlazorLearn\\BlazorLearn\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.AspNetCore.Components.Web.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.AspNetCore.Components.Web.dll.br"
@@ -321,17 +331,12 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Logging.Abstractions.dll.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\K3dpli228kQQ75WVqoiIdmn8u8q8gZHixcWDdCHCRgU=.hash",
-      "Source": "C:\\Users\\kamil\\Desktop\\GitHubWorks\\Blazor_Works\\01_BlazorLearn\\BlazorLearn\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.JSInterop.dll",
-      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.JSInterop.dll.br"
-    },
-    {
       "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\oZtVKBjmqOsIlSUbydq1eeob6CSHoYyTDksteqmu2hE=.hash",
       "Source": "C:\\Users\\kamil\\Desktop\\GitHubWorks\\Blazor_Works\\01_BlazorLearn\\BlazorLearn\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.AspNetCore.Components.WebAssembly.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.AspNetCore.Components.WebAssembly.dll.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\8Y81cOKaNJHZZvHu0TROikruBOenBHdE5WwI2BOkNNE=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\wiJ-tTsfR06mqIO4AUWTWR8o2QTwBlCvRdrZZzf66aQ=.hash",
       "Source": "C:\\Users\\kamil\\Desktop\\GitHubWorks\\Blazor_Works\\01_BlazorLearn\\BlazorLearn\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.Extensions.DependencyInjection.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.DependencyInjection.dll.br"
     },
@@ -391,7 +396,7 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.JSInterop.WebAssembly.dll.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\4phtsSFNJDQgyqKLB4iXWydiMgo6vLtefZ9-uPBLzQw=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\M6OsV4nFerXkJvSmB1Vs9lzV5LE0Ef873QcJ-_PxDsY=.hash",
       "Source": "C:\\Users\\kamil\\Desktop\\GitHubWorks\\Blazor_Works\\01_BlazorLearn\\BlazorLearn\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\BlazorLearn.pdb",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/BlazorLearn.pdb.br"
     },
@@ -411,7 +416,7 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.webassembly.js.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\7twGJ6WQBN6vGUn7OSiWE_Q1VWPjRxnyCtw57U-u05o=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\tJNdGo60vHc8dxZ9LzeeetA-zMTD_uHrfROCk9CuE3I=.hash",
       "Source": "C:\\Users\\kamil\\Desktop\\GitHubWorks\\Blazor_Works\\01_BlazorLearn\\BlazorLearn\\obj\\Debug\\netstandard2.1\\blazor\\blazor.boot.json",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.boot.json.br"
     }

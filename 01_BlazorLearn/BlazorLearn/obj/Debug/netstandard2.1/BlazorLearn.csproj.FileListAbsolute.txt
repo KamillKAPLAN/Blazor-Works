@@ -305,7 +305,6 @@ C:\Users\kamil\Desktop\GitHubWorks\Blazor_Works\01_BlazorLearn\BlazorLearn\obj\D
 C:\Users\kamil\Desktop\GitHubWorks\Blazor_Works\01_BlazorLearn\BlazorLearn\obj\Debug\netstandard2.1\integrity\_76yzUtJBMd0wQW6mPsowwOyd8n_RhP5MH0gX9JD1bY=.hash
 C:\Users\kamil\Desktop\GitHubWorks\Blazor_Works\01_BlazorLearn\BlazorLearn\obj\Debug\netstandard2.1\integrity\42i9sX9RW-PFtlMP46N6Ct2crBNz9KrI7DXTm1G-W5Y=.hash
 C:\Users\kamil\Desktop\GitHubWorks\Blazor_Works\01_BlazorLearn\BlazorLearn\obj\Debug\netstandard2.1\integrity\2CtnwRPC9c48hWYZDJuNnhvrULD10GwDzqcovS_jdm8=.hash
-C:\Users\kamil\Desktop\GitHubWorks\Blazor_Works\01_BlazorLearn\BlazorLearn\obj\Debug\netstandard2.1\integrity\ycn-UHLnjC77BNvsurP4mkuYP8oud1oVyfSSlZKMymc=.hash
 C:\Users\kamil\Desktop\GitHubWorks\Blazor_Works\01_BlazorLearn\BlazorLearn\obj\Debug\netstandard2.1\integrity\-zcPVM75OAY_joGVM8yIC1gO1SFYWP1CFERgQ8PJkfA=.hash
 C:\Users\kamil\Desktop\GitHubWorks\Blazor_Works\01_BlazorLearn\BlazorLearn\obj\Debug\netstandard2.1\integrity\X_KtxwDBjBx9VPq3zF9ip_63zx1z2Rz5Lg1GBCpkUq0=.hash
 C:\Users\kamil\Desktop\GitHubWorks\Blazor_Works\01_BlazorLearn\BlazorLearn\obj\Debug\netstandard2.1\integrity\DPENec1Z53ICQLeavfk0DMkuRHFDcdZafgy3jkt4kps=.hash
@@ -328,7 +327,6 @@ C:\Users\kamil\Desktop\GitHubWorks\Blazor_Works\01_BlazorLearn\BlazorLearn\obj\D
 C:\Users\kamil\Desktop\GitHubWorks\Blazor_Works\01_BlazorLearn\BlazorLearn\obj\Debug\netstandard2.1\integrity\4R9RWEah9N7EeoCL7dwZ8UpJYiOQpI4JIY-L99xFk4E=.hash
 C:\Users\kamil\Desktop\GitHubWorks\Blazor_Works\01_BlazorLearn\BlazorLearn\obj\Debug\netstandard2.1\integrity\GrMZBDV8329h-O-w0ZcCD7XL3FUm7iNmu5yYHz5oNhs=.hash
 C:\Users\kamil\Desktop\GitHubWorks\Blazor_Works\01_BlazorLearn\BlazorLearn\obj\Debug\netstandard2.1\integrity\L5mEzgluvD_tz4p5rkTK0uSW2lsh2fVOJJnB5kOPJ10=.hash
-C:\Users\kamil\Desktop\GitHubWorks\Blazor_Works\01_BlazorLearn\BlazorLearn\obj\Debug\netstandard2.1\integrity\mfk4mGJNEuOK1ya6HNucfAmophVZxc_JZZGUjS6Ch2g=.hash
 C:\Users\kamil\Desktop\GitHubWorks\Blazor_Works\01_BlazorLearn\BlazorLearn\obj\Debug\netstandard2.1\integrity\ZxXy75PYbzJxNfAc-SAP1nUYm4gt1jSaOpFnBb9m85M=.hash
 C:\Users\kamil\Desktop\GitHubWorks\Blazor_Works\01_BlazorLearn\BlazorLearn\obj\Debug\netstandard2.1\integrity\TkH6yxFQlTfY8NfznePrCdYJiEVpM9Dqy4Uu4H9qk10=.hash
 C:\Users\kamil\Desktop\GitHubWorks\Blazor_Works\01_BlazorLearn\BlazorLearn\obj\Debug\netstandard2.1\integrity\pzCorxTCjbUODF5JuRgcHc8gVYEdSaKD9NWA6wZhTPE=.hash
@@ -344,7 +342,6 @@ C:\Users\kamil\Desktop\GitHubWorks\Blazor_Works\01_BlazorLearn\BlazorLearn\obj\D
 C:\Users\kamil\Desktop\GitHubWorks\Blazor_Works\01_BlazorLearn\BlazorLearn\obj\Debug\netstandard2.1\integrity\45ia6XmGIa5WI3cHUIE9KhVornlZleYW_B5FPpfD1wQ=.hash
 C:\Users\kamil\Desktop\GitHubWorks\Blazor_Works\01_BlazorLearn\BlazorLearn\obj\Debug\netstandard2.1\integrity\K3dpli228kQQ75WVqoiIdmn8u8q8gZHixcWDdCHCRgU=.hash
 C:\Users\kamil\Desktop\GitHubWorks\Blazor_Works\01_BlazorLearn\BlazorLearn\obj\Debug\netstandard2.1\integrity\oZtVKBjmqOsIlSUbydq1eeob6CSHoYyTDksteqmu2hE=.hash
-C:\Users\kamil\Desktop\GitHubWorks\Blazor_Works\01_BlazorLearn\BlazorLearn\obj\Debug\netstandard2.1\integrity\8Y81cOKaNJHZZvHu0TROikruBOenBHdE5WwI2BOkNNE=.hash
 C:\Users\kamil\Desktop\GitHubWorks\Blazor_Works\01_BlazorLearn\BlazorLearn\obj\Debug\netstandard2.1\integrity\iUTfpj7A29tIp2gl2fLM_w1MwyI8XMmUV8gFe_mJBZI=.hash
 C:\Users\kamil\Desktop\GitHubWorks\Blazor_Works\01_BlazorLearn\BlazorLearn\obj\Debug\netstandard2.1\integrity\DG1MjidH81NA50uWH63eWmXLCxt18sJzoF2oXVlyvlY=.hash
 C:\Users\kamil\Desktop\GitHubWorks\Blazor_Works\01_BlazorLearn\BlazorLearn\obj\Debug\netstandard2.1\integrity\D1gbYUWxCdwEKvWRcGQoVikKs0zgWMUenGMDEaDRxrc=.hash
@@ -532,9 +529,16 @@ C:\Users\kamil\Desktop\GitHubWorks\Blazor_Works\01_BlazorLearn\BlazorLearn\obj\D
 C:\Users\kamil\Desktop\GitHubWorks\Blazor_Works\01_BlazorLearn\BlazorLearn\obj\Debug\netstandard2.1\BlazorLearn.pdb
 C:\Users\kamil\Desktop\GitHubWorks\Blazor_Works\01_BlazorLearn\BlazorLearn\obj\Debug\netstandard2.1\RazorDeclaration\Pages\NewStudent.razor.g.cs
 C:\Users\kamil\Desktop\GitHubWorks\Blazor_Works\01_BlazorLearn\BlazorLearn\bin\Debug\netstandard2.1\BlazorInputFile.dll
-C:\Users\kamil\Desktop\GitHubWorks\Blazor_Works\01_BlazorLearn\BlazorLearn\obj\Debug\netstandard2.1\BlazorLearn.csproj.CoreCompileInputs.cache
 C:\Users\kamil\Desktop\GitHubWorks\Blazor_Works\01_BlazorLearn\BlazorLearn\obj\Debug\netstandard2.1\RazorDeclaration\Pages\RichTextBox.razor.g.cs
 C:\Users\kamil\Desktop\GitHubWorks\Blazor_Works\01_BlazorLearn\BlazorLearn\bin\Debug\netstandard2.1\Blazored.TextEditor.dll
+C:\Users\kamil\Desktop\GitHubWorks\Blazor_Works\01_BlazorLearn\BlazorLearn\obj\Debug\netstandard2.1\RazorDeclaration\Pages\localStorage\LocalStorage.razor.g.cs
+C:\Users\kamil\Desktop\GitHubWorks\Blazor_Works\01_BlazorLearn\BlazorLearn\obj\Debug\netstandard2.1\integrity\o_nIDOlv_7C51lX5qskB167ESJHrLYQiPQU9lsq7bOk=.hash
+C:\Users\kamil\Desktop\GitHubWorks\Blazor_Works\01_BlazorLearn\BlazorLearn\obj\Debug\netstandard2.1\integrity\99dseBOagY3mzu5Y8Eqm8gRI_o8QbbCp7R2Ew9bQ_5E=.hash
+C:\Users\kamil\Desktop\GitHubWorks\Blazor_Works\01_BlazorLearn\BlazorLearn\obj\Debug\netstandard2.1\integrity\wiJ-tTsfR06mqIO4AUWTWR8o2QTwBlCvRdrZZzf66aQ=.hash
+C:\Users\kamil\Desktop\GitHubWorks\Blazor_Works\01_BlazorLearn\BlazorLearn\obj\Debug\netstandard2.1\BlazorLearn.csproj.CoreCompileInputs.cache
+C:\Users\kamil\Desktop\GitHubWorks\Blazor_Works\01_BlazorLearn\BlazorLearn\bin\Debug\netstandard2.1\wwwroot\_framework\_bin\Blazored.LocalStorage.dll
+C:\Users\kamil\Desktop\GitHubWorks\Blazor_Works\01_BlazorLearn\BlazorLearn\bin\Debug\netstandard2.1\wwwroot\_framework\_bin\Blazored.LocalStorage.dll.gz
+C:\Users\kamil\Desktop\GitHubWorks\Blazor_Works\01_BlazorLearn\BlazorLearn\bin\Debug\netstandard2.1\Blazored.LocalStorage.dll
 C:\Users\kamil\Desktop\GitHubWorks\Blazor_Works\01_BlazorLearn\BlazorLearn\obj\Debug\netstandard2.1\RazorDeclaration\BlazorLearn.dll
 C:\Users\kamil\Desktop\GitHubWorks\Blazor_Works\01_BlazorLearn\BlazorLearn\obj\Debug\netstandard2.1\BlazorLearn.TagHelpers.input.cache
 C:\Users\kamil\Desktop\GitHubWorks\Blazor_Works\01_BlazorLearn\BlazorLearn\obj\Debug\netstandard2.1\BlazorLearn.TagHelpers.output.cache
@@ -546,6 +550,7 @@ C:\Users\kamil\Desktop\GitHubWorks\Blazor_Works\01_BlazorLearn\BlazorLearn\obj\D
 C:\Users\kamil\Desktop\GitHubWorks\Blazor_Works\01_BlazorLearn\BlazorLearn\obj\Debug\netstandard2.1\Razor\Pages\Detail.razor.g.cs
 C:\Users\kamil\Desktop\GitHubWorks\Blazor_Works\01_BlazorLearn\BlazorLearn\obj\Debug\netstandard2.1\Razor\Pages\FetchData.razor.g.cs
 C:\Users\kamil\Desktop\GitHubWorks\Blazor_Works\01_BlazorLearn\BlazorLearn\obj\Debug\netstandard2.1\Razor\Pages\Index.razor.g.cs
+C:\Users\kamil\Desktop\GitHubWorks\Blazor_Works\01_BlazorLearn\BlazorLearn\obj\Debug\netstandard2.1\Razor\Pages\localStorage\LocalStorage.razor.g.cs
 C:\Users\kamil\Desktop\GitHubWorks\Blazor_Works\01_BlazorLearn\BlazorLearn\obj\Debug\netstandard2.1\Razor\Pages\MultipleParameter.razor.g.cs
 C:\Users\kamil\Desktop\GitHubWorks\Blazor_Works\01_BlazorLearn\BlazorLearn\obj\Debug\netstandard2.1\Razor\Pages\NewStudent.razor.g.cs
 C:\Users\kamil\Desktop\GitHubWorks\Blazor_Works\01_BlazorLearn\BlazorLearn\obj\Debug\netstandard2.1\Razor\Pages\PostsData.razor.g.cs
@@ -562,6 +567,9 @@ C:\Users\kamil\Desktop\GitHubWorks\Blazor_Works\01_BlazorLearn\BlazorLearn\obj\D
 C:\Users\kamil\Desktop\GitHubWorks\Blazor_Works\01_BlazorLearn\BlazorLearn\obj\Debug\netstandard2.1\Razor\Shared\NavMenu.razor.g.cs
 C:\Users\kamil\Desktop\GitHubWorks\Blazor_Works\01_BlazorLearn\BlazorLearn\obj\Debug\netstandard2.1\Razor\Shared\SurveyPrompt.razor.g.cs
 C:\Users\kamil\Desktop\GitHubWorks\Blazor_Works\01_BlazorLearn\BlazorLearn\obj\Debug\netstandard2.1\Razor\_Imports.razor.g.cs
-C:\Users\kamil\Desktop\GitHubWorks\Blazor_Works\01_BlazorLearn\BlazorLearn\obj\Debug\netstandard2.1\integrity\6ZK33bFEqNBO5uuPB1XFuZUBLIU7OFFi0hGK3yo33Mw=.hash
-C:\Users\kamil\Desktop\GitHubWorks\Blazor_Works\01_BlazorLearn\BlazorLearn\obj\Debug\netstandard2.1\integrity\4phtsSFNJDQgyqKLB4iXWydiMgo6vLtefZ9-uPBLzQw=.hash
-C:\Users\kamil\Desktop\GitHubWorks\Blazor_Works\01_BlazorLearn\BlazorLearn\obj\Debug\netstandard2.1\integrity\7twGJ6WQBN6vGUn7OSiWE_Q1VWPjRxnyCtw57U-u05o=.hash
+C:\Users\kamil\Desktop\GitHubWorks\Blazor_Works\01_BlazorLearn\BlazorLearn\obj\Debug\netstandard2.1\integrity\fWwjvztyZqVR47Lr3GGvh2S5TrD635IoiUP2hUI4AVg=.hash
+C:\Users\kamil\Desktop\GitHubWorks\Blazor_Works\01_BlazorLearn\BlazorLearn\obj\Debug\netstandard2.1\compressed\_framework\_bin\Blazored.LocalStorage.dll.gz
+C:\Users\kamil\Desktop\GitHubWorks\Blazor_Works\01_BlazorLearn\BlazorLearn\obj\Debug\netstandard2.1\compressed\_framework\_bin\Blazored.LocalStorage.dll.br
+C:\Users\kamil\Desktop\GitHubWorks\Blazor_Works\01_BlazorLearn\BlazorLearn\obj\Debug\netstandard2.1\integrity\zVGpJiB2nEsJtF2YBI4xpPgiab5KpQ38voZrakHADh8=.hash
+C:\Users\kamil\Desktop\GitHubWorks\Blazor_Works\01_BlazorLearn\BlazorLearn\obj\Debug\netstandard2.1\integrity\M6OsV4nFerXkJvSmB1Vs9lzV5LE0Ef873QcJ-_PxDsY=.hash
+C:\Users\kamil\Desktop\GitHubWorks\Blazor_Works\01_BlazorLearn\BlazorLearn\obj\Debug\netstandard2.1\integrity\tJNdGo60vHc8dxZ9LzeeetA-zMTD_uHrfROCk9CuE3I=.hash

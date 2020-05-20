@@ -41,6 +41,9 @@ namespace PlannerApp.Shared.Services
          * 
          * "email": "ilyasbural@gmail.com",
          * "password": "Ilyas_123"
+         * 
+         * "email": "ardaParlak@gmail.com",
+         * "password": "Arda123_"
          */
     }
 }
