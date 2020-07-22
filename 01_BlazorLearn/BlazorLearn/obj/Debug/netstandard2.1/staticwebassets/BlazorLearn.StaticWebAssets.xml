@@ -1,6 +1,0 @@
-﻿<StaticWebAssets Version="1.0">
-  <ContentRoot BasePath="/" Path="C:\Users\kamil\Desktop\GitHubWorks\Blazor_Works\01_BlazorLearn\BlazorLearn\bin\Debug\netstandard2.1\wwwroot\" />
-  <ContentRoot BasePath="_content/Blazored.TextEditor" Path="C:\Users\kamil\.nuget\packages\blazored.texteditor\1.0.3\build\..\staticwebassets\" />
-  <ContentRoot BasePath="_content/Blazored.Toast" Path="C:\Users\kamil\.nuget\packages\blazored.toast\3.1.1\build\..\staticwebassets\" />
-  <ContentRoot BasePath="_content/BlazorInputFile" Path="C:\Users\kamil\.nuget\packages\blazorinputfile\0.2.0\build\..\staticwebassets\" />
-</StaticWebAssets>
