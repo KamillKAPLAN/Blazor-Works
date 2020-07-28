@@ -18,6 +18,28 @@
             </NavLink>
         </li>
         <li class="nav-item px-3">
+            <NavLink class="nav-link" href="cart" @onclick="ToggleExpandMenu">
+                <span class="oi oi-list-rich" aria-hidden="true"></span> Cart
+            </NavLink>
+            @if (expandSubMenu)
+            {
+                <ul class="nav flex-column">
+                    <li class="nav-item px-3">
+                        <NavLink class="nav-link" href="cart/1">
+                            <span class="oi oi-file" aria-hidden="true"></span> Sub-1
+                        </NavLink>
+                    </li>
+                </ul>
+                <ul class="nav flex-column">
+                    <li class="nav-item px-3">
+                        <NavLink class="nav-link" href="cart/2">
+                            <span class="oi oi-bar-chart" aria-hidden="true"></span> Sub-2
+                        </NavLink>
+                    </li>
+                </ul>
+            }
+        </li>
+        <li class="nav-item px-3">
             <NavLink class="nav-link" href="fetchdata">
                 <span class="oi oi-list-rich" aria-hidden="true"></span> Fetch data
             </NavLink>
@@ -27,11 +49,17 @@
 
 @code {
     private bool collapseNavMenu = true;
+    private bool expandSubMenu;
 
     private string NavMenuCssClass => collapseNavMenu ? "collapse" : null;
 
     private void ToggleNavMenu()
     {
         collapseNavMenu = !collapseNavMenu;
+    }
+
+    private void ToggleExpandMenu()
+    {
+        expandSubMenu = !expandSubMenu;
     }
 }

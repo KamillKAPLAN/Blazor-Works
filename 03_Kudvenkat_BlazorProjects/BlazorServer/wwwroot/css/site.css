@@ -180,4 +180,9 @@ app {
         /* Never collapse the sidebar for wide screens */
         display: block;
     }
+
+    .nav-item a.active::after {
+        content: "*";
+        margin-left: 1em;
+    }
 }

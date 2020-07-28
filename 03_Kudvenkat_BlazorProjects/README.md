@@ -9,8 +9,9 @@
 ---
 
 1. [Giriş ve Tanışma](#giriş-ve-tanışma)
-2. [01_What is Blazor](#What-is-Blazor)
-3. [02_ASP NET Core Blazor Hosting Models](#ASP-NET-Core-Blazor-Hosting-Models)
+2. [What is Blazor](#What-is-Blazor)
+3. [ASP NET Core Blazor Hosting Models](#ASP-NET-Core-Blazor-Hosting-Models)
+4. [ASP NET Core Razor Components](#ASP-NET-Core-Razor-Components)
 
 ## Giriş ve Tanışma
 
@@ -77,9 +78,9 @@ yapılması planlanan projelerimiz için ve `BLAZOR` öğrenmekmek isteyanler i�
 
 ![02_08](./images/02_08.png)
 
-## ASP.NET Core Blazor Project Structure
+## ASP NET Core Blazor Hosting Models
 
 `https://www.youtube.com/watch?v=1MkPWOiwLIM&list=PL6n9fhu94yhVowClAs8-6nYnfsOTma14P&index=3`
 
-## ASP.NET Core Razor Components
+## ASP NET Core Razor Components
 
