@@ -24,8 +24,8 @@ yapılması planlanan projelerimiz için ve `BLAZOR` öğrenmekmek isteyanler i�
 ## What is Blazor
 
 `https://docs.microsoft.com/tr-tr/aspnet/core/blazor/templates?view=aspnetcore-3.1`
+
 **Microsoft.AspNetCore.Blazor.Templates** : https://www.nuget.org/packages/Microsoft.AspNetCore.Blazor.Templates
-<<<<<<< HEAD
 
 ![01_00](./images/01_00.png)
 
@@ -77,6 +77,10 @@ yapılması planlanan projelerimiz için ve `BLAZOR` öğrenmekmek isteyanler i�
 4. ölçeklenebilirlik zor olabilir
 
 ![02_08](./images/02_08.png)
+
+## Blazor Sub Menu 
+
+`https://www.youtube.com/watch?v=prz5kATC1Dg` 
 
 ## ASP NET Core Blazor Hosting Models
 

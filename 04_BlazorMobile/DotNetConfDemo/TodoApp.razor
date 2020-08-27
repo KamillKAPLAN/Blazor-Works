@@ -1,0 +1,42 @@
+﻿<ContentView>
+    <StackLayout Margin="new Thickness(20)">
+
+        @* Entry area *@
+        <StackLayout Margin="new Thickness(20)" Orientation="StackOrientation.Horizontal">
+            <Entry @bind-Text="newItemText" HorizontalOptions="LayoutOptions.FillAndExpand" />
+            <Button Text="Add" OnClick="OnAddItem" />
+        </StackLayout>
+
+        @* TodoItem area *@
+
+        <ScrollView>
+            <StackLayout>
+                @foreach (var item in items)
+                {
+                    <TodoItemDisplay Item="item" />
+                }
+            </StackLayout>
+        </ScrollView>
+
+    </StackLayout>
+</ContentView>
+
+@code
+{
+    string newItemText;
+
+    List<TodoItem> items = new List<TodoItem>();
+
+    void OnAddItem()
+    {
+        var newTodoItem = new TodoItem
+        {
+            Text = newItemText,
+        };
+
+        items.Add(newTodoItem);
+
+        // Clear out the text in the Entry textbox
+        newItemText = null;
+    }
+}
